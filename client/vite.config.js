@@ -3,15 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // For GitHub Pages - change to '/repo-name/' if deploying to username.github.io/repo-name
+  base: './',
   server: {
     port: 3000,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
-      },
-    },
   },
   build: {
     outDir: 'dist',

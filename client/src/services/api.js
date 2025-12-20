@@ -1,22 +1,19 @@
-// Use relative paths for static hosting (GitHub Pages) or API for local dev
-const isProduction = import.meta.env.PROD;
-const API_BASE = isProduction ? '/data' : '/api';
-const FILE_EXT = isProduction ? '.json' : '';
+// Load data from local JSON files
+const API_BASE = '/data';
 
 export async function fetchProfile() {
-  const response = await fetch(`${API_BASE}/profile${FILE_EXT}`);
+  const response = await fetch(`${API_BASE}/profile.json`);
   if (!response.ok) throw new Error('Failed to fetch profile');
   return response.json();
 }
 
 export async function fetchProjects() {
-  const response = await fetch(`${API_BASE}/projects${FILE_EXT}`);
+  const response = await fetch(`${API_BASE}/projects.json`);
   if (!response.ok) throw new Error('Failed to fetch projects');
   return response.json();
 }
 
 export async function fetchProject(id) {
-  // In production, we fetch all projects and filter
   const projects = await fetchProjects();
   const project = projects.find(p => p.id === id);
   if (!project) throw new Error('Failed to fetch project');
@@ -24,13 +21,12 @@ export async function fetchProject(id) {
 }
 
 export async function fetchBlogs() {
-  const response = await fetch(`${API_BASE}/blogs${FILE_EXT}`);
+  const response = await fetch(`${API_BASE}/blogs.json`);
   if (!response.ok) throw new Error('Failed to fetch blogs');
   return response.json();
 }
 
 export async function fetchBlog(slug) {
-  // In production, we fetch all blogs and filter
   const blogs = await fetchBlogs();
   const blog = blogs.find(b => b.slug === slug);
   if (!blog) throw new Error('Failed to fetch blog');
@@ -38,7 +34,7 @@ export async function fetchBlog(slug) {
 }
 
 export async function fetchAchievements() {
-  const response = await fetch(`${API_BASE}/achievements${FILE_EXT}`);
+  const response = await fetch(`${API_BASE}/achievements.json`);
   if (!response.ok) throw new Error('Failed to fetch achievements');
   return response.json();
 }

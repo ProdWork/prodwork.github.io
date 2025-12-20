@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "slug": "multi-cloud-strategy-modern-enterprise",
+    "title": "Building a Multi-Cloud Strategy for the Modern Enterprise",
+    "date": "2025-09-14",
+    "excerpt": "Why putting all your eggs in one cloud basket is a recipe for vendor lock-in, and how to architect for true cloud agnosticism without drowning in complexity.",
+    "readTime": "8 min read",
+    "category": "Cloud Architecture",
+    "tags": ["Cloud", "Strategy", "Enterprise", "Infrastructure"],
+    "featured": true,
+    "content": "In the rapidly evolving landscape of cloud computing, enterprises face a critical decision: commit to a single cloud provider or embrace a multi-cloud strategy.\n\nAfter leading cloud transformations across multiple Fortune 500 companies, I've learned that the answer isn't binary. Here's my framework for making this decision...\n\n## The Case for Multi-Cloud\n\nVendor lock-in is real. When you build deeply on one provider's proprietary services, switching costs compound exponentially. But multi-cloud isn't just about avoiding lock-in—it's about leveraging each provider's strengths.\n\n## The Hidden Costs\n\nBefore you jump in, understand the operational overhead. Multi-cloud means:\n- Multiple IAM systems\n- Different networking paradigms\n- Varied compliance certifications\n- Complex cost allocation\n\n## My Recommended Approach\n\nStart with a clear abstraction layer. Kubernetes has become the de facto standard, but don't stop there. Consider Terraform for infrastructure, and invest heavily in platform engineering.\n\nThe goal isn't to use every cloud equally—it's to have the freedom to use each optimally."
+  },
+  {
+    "id": 2,
+    "slug": "blockchain-supply-chain-reality",
+    "title": "Blockchain in Supply Chain: Separating Hype from Reality",
+    "date": "2025-06-22",
+    "excerpt": "After implementing blockchain solutions across three continents, here's what actually works—and what's still science fiction in supply chain transformation.",
+    "readTime": "12 min read",
+    "category": "Blockchain",
+    "tags": ["Blockchain", "Supply Chain", "Enterprise", "Innovation"],
+    "featured": true,
+    "content": "The blockchain hype cycle has been brutal for supply chain professionals. Every vendor promised transparency, immutability, and trust. The reality? It's complicated.\n\n## Where Blockchain Actually Delivers\n\nProvenance tracking for high-value goods has genuine ROI. When you need to prove the origin of diamonds, pharmaceuticals, or luxury goods, blockchain's immutable ledger shines.\n\n## Where It Falls Short\n\nThe 'garbage in, garbage out' problem persists. Blockchain can't verify that the physical world matches the digital record. You still need trusted oracles and IoT integration.\n\n## The Real Innovation\n\nThe biggest win from blockchain initiatives often isn't the technology—it's the process improvement. Mapping your supply chain for blockchain implementation reveals inefficiencies you never knew existed.\n\n## My Recommendation\n\nStart with a clear business problem, not a technology solution. If you can solve it with a traditional database, do that. Reserve blockchain for scenarios where multiple parties need shared truth without a trusted intermediary."
+  },
+  {
+    "id": 3,
+    "slug": "iit-roorkee-iim-lucknow-journey",
+    "title": "From IIT Roorkee to IIM Lucknow: An Academic Journey in Tech Leadership",
+    "date": "2025-03-15",
+    "excerpt": "How engineering fundamentals from one of India's oldest technical institutes combined with strategic thinking from a premier business school to shape my approach to product leadership.",
+    "readTime": "10 min read",
+    "category": "Personal",
+    "tags": ["Career", "Education", "Leadership", "Personal"],
+    "featured": false,
+    "content": "The question I get asked most often: 'Why MBA after engineering?'\n\nThe answer shaped my entire career in ways I couldn't have predicted.\n\n## The IIT Roorkee Foundation\n\nRoorkee taught me rigor. The oldest engineering institution in Asia doesn't let you cut corners. Every proof must be complete, every assumption justified. This discipline became my superpower in technical product management.\n\n## The IIM Lucknow Transformation\n\nLucknow taught me context. The same solution that works in one market fails in another. Business strategy isn't about finding the right answer—it's about asking the right questions.\n\n## The Synthesis\n\nThe magic happens when you combine both lenses. I can sit in a technical architecture review and a board strategy session on the same day. I can translate between engineers and executives because I've lived in both worlds.\n\n## Advice for Aspiring Product Leaders\n\nDon't rush to specialize. The most impactful product leaders I know have diverse backgrounds. Your unique combination of experiences is your competitive advantage."
+  },
+  {
+    "id": 4,
+    "slug": "product-strategy-mistakes-learned",
+    "title": "5 Product Strategy Mistakes I Made (So You Don't Have To)",
+    "date": "2024-11-08",
+    "excerpt": "Honest reflections on strategic missteps that cost time, money, and team morale—and the frameworks I now use to avoid them.",
+    "readTime": "7 min read",
+    "category": "Product Strategy",
+    "tags": ["Product Management", "Strategy", "Leadership", "Lessons"],
+    "featured": true,
+    "content": "I've shipped products to millions of users. I've also killed products that never found market fit. The failures taught me more.\n\n## Mistake 1: Building for the Loudest Customer\n\nEnterprise customers with big contracts can distort your roadmap. I once pivoted an entire product direction for a single client's request. The feature shipped, they churned anyway, and we'd alienated our core user base.\n\n## Mistake 2: Confusing Motion with Progress\n\nShipping features felt productive. But velocity without direction is just chaos. Now I obsess over outcomes, not output.\n\n## Mistake 3: Underestimating Integration Complexity\n\nThat 'simple API integration' became a six-month odyssey. I learned to prototype integrations before committing to partnerships.\n\n## Mistake 4: Ignoring Internal Products\n\nOur sales team was using spreadsheets while we built shiny features. Internal tooling isn't sexy, but it's often the highest-leverage work.\n\n## Mistake 5: Waiting Too Long to Kill Projects\n\nSunk cost fallacy is real. I kept a failing project alive for eight months because we'd already invested so much. That's eight months we could have spent on something valuable."
+  },
+  {
+    "id": 5,
+    "slug": "cloud-platform-scaling-checklist",
+    "title": "The Cloud Platform Scaling Checklist I Wish I Had Earlier",
+    "date": "2024-08-19",
+    "excerpt": "A practical, battle-tested checklist for scaling cloud platforms from thousands to millions of users without losing sleep (or your SLA).",
+    "readTime": "15 min read",
+    "category": "Cloud Architecture",
+    "tags": ["Cloud", "Scaling", "DevOps", "Engineering"],
+    "featured": false,
+    "content": "Scaling is not a feature you add later. It's a mindset you build from day one.\n\nAfter scaling platforms through multiple orders of magnitude, here's my checklist:\n\n## Architecture\n- [ ] Stateless services by default\n- [ ] Horizontal scaling capability\n- [ ] Database read replicas configured\n- [ ] CDN for static assets\n- [ ] Queue-based async processing\n\n## Observability\n- [ ] Distributed tracing implemented\n- [ ] Structured logging everywhere\n- [ ] Custom metrics for business KPIs\n- [ ] Alerting on symptoms, not causes\n- [ ] Runbooks for common incidents\n\n## Reliability\n- [ ] Circuit breakers on external calls\n- [ ] Graceful degradation paths\n- [ ] Chaos engineering practice\n- [ ] Disaster recovery tested quarterly\n- [ ] Multi-region capability\n\n## Performance\n- [ ] P95 latency targets defined\n- [ ] Database query optimization\n- [ ] Connection pooling configured\n- [ ] Cache invalidation strategy\n- [ ] Load testing in CI/CD\n\nThis checklist has saved me countless 3 AM pages. Use it before you need it."
+  },
+  {
+    "id": 6,
+    "slug": "patents-product-value",
+    "title": "Patents in Product: When IP Protection Creates Real Value",
+    "date": "2024-05-12",
+    "excerpt": "Three patents later, here's my honest take on when intellectual property protection matters for product strategy—and when it's just expensive paperwork.",
+    "readTime": "6 min read",
+    "category": "Product Strategy",
+    "tags": ["Patents", "IP", "Strategy", "Innovation"],
+    "featured": false,
+    "content": "Filing a patent costs $15,000-50,000. Maintaining it costs more. Is it worth it?\n\nAfter filing three patents, my answer is: it depends.\n\n## When Patents Create Value\n\n**Defensive moats**: In competitive markets, patents prevent copycats from cloning your innovation. This is especially valuable in B2B where sales cycles are long.\n\n**M&A leverage**: Acquirers pay premium for protected IP. If exit is your goal, patents matter.\n\n**Enterprise sales**: Some procurement processes require proof of innovation. Patents serve as credibility signals.\n\n## When Patents Are Wasted Effort\n\n**Fast-moving markets**: If the technology will be obsolete before the patent is granted (3-5 years), save your money.\n\n**Execution-dependent innovations**: Some advantages come from how you do things, not what you do. Those are better protected by trade secrets.\n\n## My Framework\n\nI now ask: 'Would a well-funded competitor building this in 18 months threaten our business?' If yes, file the patent. If no, invest in shipping faster instead."
+  },
+  {
+    "id": 7,
+    "slug": "leadership-tech-teams",
+    "title": "Leading Technical Teams as a Non-Technical Executive",
+    "date": "2024-02-28",
+    "excerpt": "How to earn respect, make good decisions, and avoid the traps that derail leaders without engineering backgrounds in tech organizations.",
+    "readTime": "9 min read",
+    "category": "Leadership",
+    "tags": ["Leadership", "Management", "Teams", "Engineering"],
+    "featured": false,
+    "content": "I have an engineering degree, but I haven't written production code in a decade. Here's how I lead technical teams effectively anyway.\n\n## Earn Respect Through Curiosity, Not Credentials\n\nEngineers respect leaders who ask good questions more than those who pretend to have answers. 'Help me understand why this is hard' opens more doors than 'I used to code in COBOL.'\n\n## Make Decisions at the Right Altitude\n\nYour job isn't to choose between React and Vue. It's to ensure the team has clear goals, adequate resources, and psychological safety to make good technical decisions themselves.\n\n## Learn to Read Signals\n\nYou can't review code, but you can read other signals:\n- How does the team talk about technical debt?\n- Are estimates consistently wrong in one direction?\n- Do senior engineers seem frustrated or engaged?\n\n## Build Translation Bridges\n\nYour superpower is translating between technical and business contexts. Make sure both sides feel heard and understood.\n\n## Stay Technical Enough\n\nYou don't need to code, but you need to understand architectural trade-offs, deployment processes, and system limitations. Budget time to stay current."
+  },
+  {
+    "id": 8,
+    "slug": "continuous-learning-executive",
+    "title": "Continuous Learning as a Senior Executive: My System",
+    "date": "2023-09-05",
+    "excerpt": "How I stay current on technology, strategy, and leadership while running a demanding product organization—without drowning in content.",
+    "readTime": "5 min read",
+    "category": "Personal",
+    "tags": ["Learning", "Career", "Productivity", "Personal"],
+    "featured": false,
+    "content": "Information overload is real. Here's my system for continuous learning that actually works:\n\n## The 5-5-5 Framework\n\n**5 newsletters**: Carefully curated, read every morning. Quality over quantity.\n\n**5 hours weekly**: Blocked calendar time for deep learning. Non-negotiable.\n\n**5 conversations monthly**: Intentional learning from people smarter than me.\n\n## My Current Stack\n\n- Stratechery for tech strategy\n- Lenny's Newsletter for product\n- The Pragmatic Engineer for technical depth\n- HBR for leadership\n- One rotating industry-specific source\n\n## Active Learning Practices\n\n- Write summaries of what I learn (like this blog)\n- Teach concepts to my team\n- Apply one new idea per quarter\n\n## What I've Stopped Doing\n\n- Checking Twitter for news\n- Reading every 'must-read' book\n- Attending conferences without clear goals\n\nThe goal isn't to know everything. It's to know what matters and know it deeply."
+  },
+  {
+    "id": 9,
+    "slug": "conference-speaking-guide",
+    "title": "Speaking at Tech Conferences: A Practitioner's Guide",
+    "date": "2023-04-17",
+    "excerpt": "From first-time speaker to conference regular: practical advice on crafting talks, managing nerves, and building your speaking presence.",
+    "readTime": "11 min read",
+    "category": "Personal",
+    "tags": ["Speaking", "Conferences", "Career", "Personal"],
+    "featured": false,
+    "content": "I've spoken at dozens of conferences. The first time, I was terrified. Now it's one of my favorite parts of the job.\n\n## Crafting Your Talk\n\n**Start with the transformation**: What will the audience be able to do after your talk that they couldn't before?\n\n**One big idea**: The best talks have a single memorable takeaway. Everything else supports it.\n\n**Stories over stats**: Data informs, stories transform. Wrap your insights in narrative.\n\n## Preparation\n\n**Practice out loud**: Reading slides silently is not practice. Your talk lives in your voice.\n\n**Time yourself**: Talks always run longer than you think. Cut 20% more than feels comfortable.\n\n**Prepare for failure**: Know your talk well enough to continue if slides fail, demos crash, or time gets cut.\n\n## Managing Nerves\n\nNerves never fully go away. They're energy. Channel them.\n\n- Arrive early, own the space\n- Meet audience members before you speak\n- Remember: they want you to succeed\n\n## Building Momentum\n\nStart with local meetups. Record everything. Build a portfolio. The best conference talks come from ideas you've tested and refined."
+  },
+  {
+    "id": 10,
+    "slug": "product-roadmap-stakeholder-alignment",
+    "title": "The Art of Roadmap Communication: Aligning Stakeholders Without Losing Your Soul",
+    "date": "2022-11-30",
+    "excerpt": "How to present product roadmaps that satisfy executives, energize engineers, and don't box you into commitments you can't keep.",
+    "readTime": "8 min read",
+    "category": "Product Strategy",
+    "tags": ["Product Management", "Roadmap", "Communication", "Stakeholders"],
+    "featured": false,
+    "content": "Roadmaps are promises. Be careful what you promise.\n\n## The Stakeholder Paradox\n\nSales wants dates. Engineering wants flexibility. Executives want certainty. Users want everything yesterday. You can't satisfy everyone with one roadmap.\n\n## My Solution: Multiple Views\n\n**Executive view**: Outcomes and bets. 'We're investing in retention this quarter.'\n\n**Sales view**: Capabilities and timeframes. 'Enterprise SSO will be available Q3.'\n\n**Engineering view**: Problems and priorities. 'Solving checkout abandonment is higher priority than new payment methods.'\n\n**Public view**: Themes and transparency. 'We're focused on performance and reliability.'\n\n## The Now-Next-Later Framework\n\nStop putting dates on things you haven't started. Instead:\n- **Now**: Currently in development (safe to commit)\n- **Next**: Planned for next cycle (high confidence)\n- **Later**: On the radar (no commitments)\n\n## Communication Cadence\n\n- Weekly: Team-level progress\n- Monthly: Stakeholder updates\n- Quarterly: Strategic review and reprioritization\n\nThe best roadmaps are living documents that evolve with learning. Build that expectation from the start."
+  }
+]

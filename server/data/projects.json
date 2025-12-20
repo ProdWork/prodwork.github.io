@@ -1,0 +1,92 @@
+[
+  {
+    "id": "blockchain-identity",
+    "title": "Blockchain-based Digital Identity System",
+    "shortDescription": "A decentralized identity verification platform enabling secure, user-controlled digital credentials for enterprise authentication.",
+    "fullDescription": "Led the strategic vision and execution of a groundbreaking digital identity platform leveraging blockchain technology. The system enables individuals and organizations to create, manage, and verify digital identities without centralized authorities, reducing fraud by 94% and onboarding time by 78%.",
+    "role": "Head of Product",
+    "company": "Enterprise Solutions Inc.",
+    "duration": "2022 - 2024",
+    "status": "Shipped",
+    "impact": [
+      "Reduced identity verification time from 5 days to 15 minutes",
+      "Achieved 99.97% fraud prevention rate",
+      "Onboarded 2.3M users in first year",
+      "Generated $18M ARR within 18 months"
+    ],
+    "techStack": ["Ethereum", "Solidity", "React", "Node.js", "PostgreSQL", "AWS", "Zero-Knowledge Proofs"],
+    "methodology": ["Design Thinking", "Agile", "OKRs", "User Research"],
+    "challenges": [
+      "Balancing decentralization with regulatory compliance",
+      "Designing intuitive UX for complex blockchain interactions",
+      "Scaling consensus mechanisms for enterprise load"
+    ],
+    "image": "/images/project-identity.svg",
+    "color": "#6366F1",
+    "metrics": {
+      "users": "2.3M+",
+      "fraudReduction": "94%",
+      "timeToVerify": "15 min"
+    }
+  },
+  {
+    "id": "cloud-risk-platform",
+    "title": "Scalable Cloud Platform for Enterprise Risk Management",
+    "shortDescription": "Multi-cloud risk analytics platform processing 500TB+ daily, enabling real-time compliance monitoring across global enterprises.",
+    "fullDescription": "Architected and launched a comprehensive cloud-native platform for enterprise risk management. The solution integrates with major cloud providers, processes massive data streams in real-time, and provides actionable insights for compliance, security, and operational risk.",
+    "role": "VP of Product",
+    "company": "CloudScale Technologies",
+    "duration": "2020 - 2022",
+    "status": "Shipped",
+    "impact": [
+      "Processing 500TB+ data daily across 3 cloud providers",
+      "Reduced compliance audit time by 67%",
+      "Prevented $340M in potential risk exposure",
+      "Served Fortune 500 clients in 12 countries"
+    ],
+    "techStack": ["Kubernetes", "Terraform", "Python", "Apache Kafka", "Snowflake", "GCP", "AWS", "Azure"],
+    "methodology": ["SAFe", "Continuous Discovery", "Data-Driven PM"],
+    "challenges": [
+      "Achieving real-time processing at massive scale",
+      "Navigating multi-cloud security complexities",
+      "Building for global compliance requirements"
+    ],
+    "image": "/images/project-cloud.svg",
+    "color": "#10B981",
+    "metrics": {
+      "dataProcessed": "500TB/day",
+      "auditReduction": "67%",
+      "riskPrevented": "$340M"
+    }
+  },
+  {
+    "id": "predictive-analytics",
+    "title": "Product Analytics Dashboard with Predictive AI",
+    "shortDescription": "AI-powered analytics platform providing predictive insights, automated anomaly detection, and prescriptive recommendations for product teams.",
+    "fullDescription": "Conceptualized and delivered an intelligent analytics dashboard that goes beyond traditional metrics. The platform uses machine learning to predict user behavior, detect anomalies before they impact KPIs, and provide prescriptive recommendations to product managers.",
+    "role": "Director of Product",
+    "company": "DataMind Analytics",
+    "duration": "2019 - 2020",
+    "status": "Shipped",
+    "impact": [
+      "Improved feature adoption rates by 43%",
+      "Reduced churn prediction lead time to 14 days",
+      "Automated 80% of routine analytics tasks",
+      "Adopted by 450+ product teams globally"
+    ],
+    "techStack": ["Python", "TensorFlow", "React", "D3.js", "PostgreSQL", "Redis", "Docker"],
+    "methodology": ["Jobs-to-be-Done", "Rapid Prototyping", "A/B Testing"],
+    "challenges": [
+      "Making ML predictions actionable for non-technical users",
+      "Balancing model accuracy with explainability",
+      "Handling diverse data schemas across integrations"
+    ],
+    "image": "/images/project-analytics.svg",
+    "color": "#F59E0B",
+    "metrics": {
+      "adoptionIncrease": "43%",
+      "predictionWindow": "14 days",
+      "automationRate": "80%"
+    }
+  }
+]

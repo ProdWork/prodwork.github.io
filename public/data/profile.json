@@ -1,0 +1,45 @@
+{
+  "name": "Puneet Singh",
+  "title": "Product & Platform Strategy Executive",
+  "tagline": "Building products that scale, teams that thrive, and strategies that ship.",
+  "email": "puneet@example.com",
+  "location": "India",
+  "summary": "B.Tech from IIT Roorkee and MBA from IIM Lucknow. Background includes shaping product direction in cloud and blockchain, plus leading teams shipping products with scale in mind.",
+  "bio": [
+    "I've spent over a decade at the intersection of technology and business, transforming complex technical challenges into products that create real value.",
+    "My journey from engineering at IIT Roorkee to business strategy at IIM Lucknow gave me a unique lens—one that sees both the code and the customer.",
+    "I believe great products emerge from deep user empathy, rigorous prioritization, and teams empowered to do their best work."
+  ],
+  "personalNote": "When I'm not building products, you'll find me exploring emerging technologies, writing about product strategy, and speaking at conferences. I believe in continuous learning and sharing knowledge with the community.",
+  "education": [
+    {
+      "institution": "IIM Lucknow",
+      "degree": "MBA",
+      "focus": "Strategy & Management",
+      "icon": "academic"
+    },
+    {
+      "institution": "IIT Roorkee",
+      "degree": "B.Tech",
+      "focus": "Engineering",
+      "icon": "code"
+    }
+  ],
+  "expertise": [
+    "Product Strategy",
+    "Platform Architecture",
+    "Cloud & Infrastructure",
+    "Blockchain Solutions",
+    "Team Leadership",
+    "Enterprise Scale",
+    "Go-to-Market",
+    "Technical Vision"
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/puneetsingh",
+    "twitter": "https://twitter.com/puneetsingh",
+    "github": "https://github.com/puneetsingh"
+  },
+  "availability": "Open to advisory and board roles",
+  "funFact": "I've shipped products used by 10M+ users across 3 continents"
+}

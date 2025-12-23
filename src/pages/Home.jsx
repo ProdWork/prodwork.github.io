@@ -57,9 +57,9 @@ export default function Home() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4, duration: 0.8 }}
-                className="h-full flex items-center justify-center"
+                className="flex items-center justify-center"
               >
-                <div className="w-full max-w-sm aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-500/20 to-accent-500/20 dark:from-primary-500/10 dark:to-accent-500/10 flex items-center justify-center border border-primary-200 dark:border-primary-800">
+                <div className="w-56 aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-500/20 to-accent-500/20 dark:from-primary-500/10 dark:to-accent-500/10 flex items-center justify-center border border-primary-200 dark:border-primary-800">
                   <img 
                     src="/data/puneet-nb.jpg" 
                     alt="Profile" 

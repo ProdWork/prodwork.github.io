@@ -61,7 +61,7 @@ export default function Home() {
               >
                 <div className="w-full max-w-sm aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-500/20 to-accent-500/20 dark:from-primary-500/10 dark:to-accent-500/10 flex items-center justify-center border border-primary-200 dark:border-primary-800">
                   <img 
-                    src="/data/puneet-nb" 
+                    src="/data/puneet-nb.jpg" 
                     alt="Profile" 
                     className="w-full h-full object-cover"
                   />

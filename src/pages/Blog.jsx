@@ -4,7 +4,7 @@ import { BookOpen, Search, Filter, X, Tag } from 'lucide-react';
 import PageTransition, { FadeIn } from '../components/PageTransition';
 import SectionHeader from '../components/SectionHeader';
 import BlogCard from '../components/BlogCard';
-import { PageLoader, SkeletonBlogCard } from '../components/LoadingSpinner';
+import { PageLoader } from '../components/LoadingSpinner';
 import ErrorState from '../components/ErrorState';
 import { fetchBlogs } from '../services/api';
 
@@ -43,7 +43,7 @@ export default function Blog() {
       blog.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
       blog.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchesFilter && matchesSearch;
-  });
+  }).sort((a, b) => new Date(b.date) - new Date(a.date));
 
   // Separate featured and regular posts
   const featuredPosts = filteredBlogs.filter(b => b.featured);
@@ -56,12 +56,6 @@ export default function Blog() {
     <PageTransition>
       <section className="pt-32 pb-16">
         <div className="section-container">
-          <SectionHeader
-            badge={<><BookOpen size={16} /> Blog</>}
-            title="Thoughts & Insights"
-            subtitle="Sharing lessons learned from building products at scale, leading teams, and navigating the intersection of technology and business."
-          />
-
           {/* Search and Filter Bar */}
           <FadeIn delay={0.2}>
             <div className="glass-card p-4 mb-8">

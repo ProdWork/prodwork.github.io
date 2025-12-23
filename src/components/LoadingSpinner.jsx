@@ -47,35 +47,3 @@ export function PageLoader() {
     </div>
   );
 }
-
-export function SkeletonCard() {
-  return (
-    <div className="glass-card p-6 animate-pulse">
-      <div className="w-12 h-12 bg-dark-200 dark:bg-dark-700 rounded-xl mb-4" />
-      <div className="h-4 bg-dark-200 dark:bg-dark-700 rounded w-3/4 mb-3" />
-      <div className="h-3 bg-dark-200 dark:bg-dark-700 rounded w-full mb-2" />
-      <div className="h-3 bg-dark-200 dark:bg-dark-700 rounded w-5/6 mb-4" />
-      <div className="flex gap-2">
-        <div className="h-6 w-16 bg-dark-200 dark:bg-dark-700 rounded" />
-        <div className="h-6 w-16 bg-dark-200 dark:bg-dark-700 rounded" />
-        <div className="h-6 w-16 bg-dark-200 dark:bg-dark-700 rounded" />
-      </div>
-    </div>
-  );
-}
-
-export function SkeletonBlogCard() {
-  return (
-    <div className="glass-card p-6 animate-pulse">
-      <div className="flex gap-3 mb-3">
-        <div className="h-4 w-24 bg-dark-200 dark:bg-dark-700 rounded" />
-        <div className="h-4 w-16 bg-dark-200 dark:bg-dark-700 rounded" />
-      </div>
-      <div className="h-5 bg-dark-200 dark:bg-dark-700 rounded w-full mb-2" />
-      <div className="h-5 bg-dark-200 dark:bg-dark-700 rounded w-4/5 mb-4" />
-      <div className="h-3 bg-dark-200 dark:bg-dark-700 rounded w-full mb-2" />
-      <div className="h-3 bg-dark-200 dark:bg-dark-700 rounded w-full mb-2" />
-      <div className="h-3 bg-dark-200 dark:bg-dark-700 rounded w-3/4" />
-    </div>
-  );
-}

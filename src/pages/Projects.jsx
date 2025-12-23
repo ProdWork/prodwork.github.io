@@ -4,7 +4,7 @@ import { Code2, Filter, Search, X } from 'lucide-react';
 import PageTransition, { FadeIn } from '../components/PageTransition';
 import SectionHeader from '../components/SectionHeader';
 import ProjectCard from '../components/ProjectCard';
-import { PageLoader, SkeletonCard } from '../components/LoadingSpinner';
+import { PageLoader } from '../components/LoadingSpinner';
 import ErrorState from '../components/ErrorState';
 import { fetchProjects } from '../services/api';
 
@@ -29,19 +29,19 @@ export default function Projects() {
     loadData();
   }, []);
 
-  // Get unique tech stacks for filtering
-  const allTech = [...new Set(projects.flatMap(p => p.techStack))];
+  // Get unique project types for filtering
+  const allTech = [...new Set(projects.flatMap(p => p.projectType))];
   const statuses = [...new Set(projects.map(p => p.status))];
 
   // Filter projects
   const filteredProjects = projects.filter(project => {
     const matchesFilter = filter === 'all' || 
       project.status === filter || 
-      project.techStack.includes(filter);
+      project.projectType.includes(filter);
     const matchesSearch = searchQuery === '' ||
       project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       project.shortDescription.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      project.techStack.some(tech => tech.toLowerCase().includes(searchQuery.toLowerCase()));
+      project.projectType.some(tech => tech.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchesFilter && matchesSearch;
   });
 
@@ -52,12 +52,6 @@ export default function Projects() {
     <PageTransition>
       <section className="pt-32 pb-16">
         <div className="section-container">
-          <SectionHeader
-            badge={<><Code2 size={16} /> My Work</>}
-            title="Projects & Case Studies"
-            subtitle="A collection of products I've built, led, and shipped. Each represents a unique challenge solved through strategic thinking and cross-functional collaboration."
-          />
-
           {/* Search and Filter Bar */}
           <FadeIn delay={0.2}>
             <div className="glass-card p-4 mb-8">
@@ -91,12 +85,7 @@ export default function Projects() {
                     className="input-field py-2"
                   >
                     <option value="all">All Projects</option>
-                    <optgroup label="Status">
-                      {statuses.map(status => (
-                        <option key={status} value={status}>{status}</option>
-                      ))}
-                    </optgroup>
-                    <optgroup label="Technology">
+                    <optgroup label="Project Type">
                       {allTech.slice(0, 10).map(tech => (
                         <option key={tech} value={tech}>{tech}</option>
                       ))}

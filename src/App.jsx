@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
-import Achievements from './pages/Achievements';
 import Admin from './pages/Admin';
 
 function AnimatedRoutes() {
@@ -24,7 +23,6 @@ function AnimatedRoutes() {
           <Route path="projects/:id" element={<ProjectDetail />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
-          <Route path="achievements" element={<Achievements />} />
           <Route path="admin" element={<Admin />} />
         </Route>
       </Routes>

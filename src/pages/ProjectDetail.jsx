@@ -14,7 +14,7 @@ import {
   Layers,
   Zap
 } from 'lucide-react';
-import PageTransition, { FadeIn, StaggerContainer, StaggerItem } from '../components/PageTransition';
+import PageTransition, { FadeIn } from '../components/PageTransition';
 import { PageLoader } from '../components/LoadingSpinner';
 import ErrorState from '../components/ErrorState';
 import { fetchProject } from '../services/api';
@@ -256,7 +256,7 @@ export default function ProjectDetail() {
                       Tech Stack
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                      {project.techStack.map((tech) => (
+                      {project.projectType.map((tech) => (
                         <span 
                           key={tech}
                           className="px-3 py-1.5 text-sm font-medium rounded-lg bg-dark-100 dark:bg-dark-800 text-dark-600 dark:text-dark-300"

@@ -20,10 +20,10 @@
     "category": "Thought Leadership",
     "color": "#EC4899",
     "details": [
-      "AWS re:Invent 2024",
-      "ProductCon San Francisco 2023",
-      "Blockchain Expo Europe 2022",
-      "TechCrunch Disrupt 2021"
+      "FICO Arch. Summit, San Diego 2025",
+      "Linux Foundation Workshop 2022",
+      "Blockchain Technology Conf. 2018",
+      "Unicom: Blockchain in SCM 2018"
     ]
   },
   {
@@ -37,35 +37,7 @@
       "Led 5 major product launches",
       "Combined user base of 10M+",
       "Generated $50M+ ARR",
-      "99.9% uptime achievement"
-    ]
-  },
-  {
-    "id": "iit",
-    "title": "IIT Roorkee Alumnus",
-    "description": "Bachelor of Technology from India's oldest and most prestigious technical institution",
-    "icon": "academic",
-    "category": "Education",
-    "color": "#F59E0B",
-    "details": [
-      "Established in 1847",
-      "Among India's top 5 engineering institutions",
-      "Strong foundation in computer science",
-      "Active alumni network contributor"
-    ]
-  },
-  {
-    "id": "iim",
-    "title": "IIM Lucknow Alumnus",
-    "description": "MBA from one of India's premier management institutes, specializing in strategy",
-    "icon": "chart",
-    "category": "Education",
-    "color": "#8B5CF6",
-    "details": [
-      "Top 3 B-School in India",
-      "Specialization in Strategy & Operations",
-      "Leadership development program",
-      "Case competition winner"
+      "Led 50+ member teams"  
     ]
   }
 ]

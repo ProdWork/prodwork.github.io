@@ -4,7 +4,6 @@ import {
   User, 
   Briefcase, 
   BookOpen, 
-  Award, 
   Save, 
   RefreshCw, 
   Check, 
@@ -27,7 +26,6 @@ const tabs = [
   { id: 'profile', label: 'Profile', icon: User },
   { id: 'projects', label: 'Projects', icon: Briefcase },
   { id: 'blogs', label: 'Blogs', icon: BookOpen },
-  { id: 'achievements', label: 'Achievements', icon: Award },
 ];
 
 export default function Admin() {
@@ -41,13 +39,11 @@ export default function Admin() {
     profile: null,
     projects: null,
     blogs: null,
-    achievements: null,
   });
   const [editedData, setEditedData] = useState({
     profile: '',
     projects: '',
     blogs: '',
-    achievements: '',
   });
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -80,20 +76,18 @@ export default function Admin() {
   const fetchAllData = async () => {
     setLoading(true);
     try {
-      const [profile, projects, blogs, achievements] = await Promise.all([
+      const [profile, projects, blogs] = await Promise.all([
         fetch(`${API_BASE}/profile`).then(r => r.json()),
         fetch(`${API_BASE}/projects`).then(r => r.json()),
         fetch(`${API_BASE}/blogs`).then(r => r.json()),
-        fetch(`${API_BASE}/achievements`).then(r => r.json()),
       ]);
       
-      const newData = { profile, projects, blogs, achievements };
+      const newData = { profile, projects, blogs };
       setData(newData);
       setEditedData({
         profile: JSON.stringify(profile, null, 2),
         projects: JSON.stringify(projects, null, 2),
         blogs: JSON.stringify(blogs, null, 2),
-        achievements: JSON.stringify(achievements, null, 2),
       });
     } catch (error) {
       setStatus({ type: 'error', message: 'Failed to load data' });

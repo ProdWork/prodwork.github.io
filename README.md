@@ -1,6 +1,6 @@
 # Puneet Singh Portfolio
 
-A modern, responsive portfolio website built with React, TailwindCSS, and Express.
+A modern, responsive portfolio website built with React and TailwindCSS.
 
 ## 🚀 Features
 
@@ -9,36 +9,34 @@ A modern, responsive portfolio website built with React, TailwindCSS, and Expres
 - **Animations** - Smooth page transitions and micro-interactions with Framer Motion
 - **Responsive** - Mobile-first design that works on all devices
 - **Fast** - Optimized for performance with Vite
-- **API Backend** - Express server serving static JSON data
+- **Client-Only** - Static JSON data served from public folder
 
 ## 📁 Project Structure
 
 ```
-puneet-portfolio/
-├── client/                 # React frontend
-│   ├── public/            # Static assets
-│   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── context/       # React context (Theme)
-│   │   ├── pages/         # Page components
-│   │   ├── services/      # API service functions
-│   │   ├── App.jsx        # Main app component
-│   │   ├── main.jsx       # Entry point
-│   │   └── index.css      # Global styles
-│   ├── index.html
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── postcss.config.js
-│   └── vite.config.js
-│
-└── server/                 # Express backend
-    ├── data/              # JSON data files
-    │   ├── profile.json
-    │   ├── projects.json
-    │   ├── blogs.json
-    │   └── achievements.json
-    ├── index.js           # Express server
-    └── package.json
+prodwork.github.io/
+├── public/                # Static assets
+│   ├── data/             # JSON data files
+│   │   ├── profile.json
+│   │   ├── projects.json
+│   │   ├── blogs.json
+│   │   ├── achievements.json
+│   │   └── social.json
+│   └── favicon.svg
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── context/          # React context (Theme)
+│   ├── hooks/            # Custom React hooks
+│   ├── pages/            # Page components
+│   ├── services/         # API service functions
+│   ├── App.jsx           # Main app component
+│   ├── main.jsx          # Entry point
+│   └── index.css         # Global styles
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── vite.config.js
 ```
 
 ## 🛠️ Tech Stack
@@ -51,10 +49,8 @@ puneet-portfolio/
 - Lucide React (icons)
 - Vite
 
-### Backend
-- Node.js
-- Express
-- Static JSON data
+### Data
+- Static JSON files
 
 ## 📦 Installation
 
@@ -64,104 +60,95 @@ puneet-portfolio/
 
 ### Setup
 
-1. **Clone the repository**
-   ```bash
-   cd "Puneet Website"
-   ```
-
-2. **Install server dependencies**
-   ```bash
-   cd server
-   npm install
-   ```
-
-3. **Install client dependencies**
-   ```bash
-   cd ../client
-   npm install
-   ```
-
-## 🚀 Running Locally
-
-### Option 1: Run both servers (recommended for development)
-
-**Terminal 1 - Start the backend server:**
 ```bash
-cd server
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
-Server runs on http://localhost:5000
 
-**Terminal 2 - Start the frontend:**
+Development server runs on http://localhost:3000
+
+## 🏗️ Building & Deployment
+
+### Development
 ```bash
-cd client
 npm run dev
 ```
-Client runs on http://localhost:3000
+Hot reload enabled for development
 
-### Option 2: Production build
-
+### Production Build
 ```bash
-# Build the client
-cd client
 npm run build
+```
+Outputs optimized build to `/dist`
 
-# The built files will be in client/dist
-# You can serve them with any static file server
+### Deploy to GitHub Pages
+The site is configured to deploy to GitHub Pages. The `gh-pages` branch contains the built artifacts.
+
+```bash
+npm run build
+git add dist/
+git commit -m "Build update"
+git push origin gh-pages
 ```
 
-## 🔗 API Endpoints
+## 🎨 Design System
 
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/profile` | Get profile information |
-| `GET /api/projects` | Get all projects |
-| `GET /api/projects/:id` | Get single project by ID |
-| `GET /api/blogs` | Get all blog posts |
-| `GET /api/blogs/:slug` | Get single blog by slug |
-| `GET /api/achievements` | Get all achievements |
-| `GET /api/health` | Health check |
+- **Theme Colors**: Slate Blue (#3b82f6), Teal (#14b8a6)
+- **Dark Mode**: Automatic light/dark theme toggle
+- **Animations**: Framer Motion for smooth transitions
+- **Typography**: Inter, Plus Jakarta Sans
+- **Layout**: TailwindCSS responsive grid system
 
-## 🎨 Design Features
+## 📄 Data Structure
 
-- **Typography**: Plus Jakarta Sans (display), Inter (body), JetBrains Mono (code)
-- **Colors**: Primary indigo (#6366F1), Accent rose (#F83A5C)
-- **Animations**: Page transitions, hover effects, floating elements
-- **Components**: Glass cards, gradient buttons, status badges
-- **Layout**: Grid-based responsive design with generous spacing
+All data is stored as static JSON in `/public/data/`:
+
+- **profile.json** - Personal information, skills, education
+- **projects.json** - Project portfolio with details
+- **blogs.json** - Blog posts and articles
+- **achievements.json** - Achievements, certifications, statistics
+- **social.json** - Social media links
 
 ## 📱 Pages
 
-1. **Home** - Hero section, featured projects, latest blogs, achievements preview
-2. **About** - Profile details, education, expertise, personal note
-3. **Projects** - Filterable project grid with search
-4. **Project Detail** - Full case study with metrics and details
-5. **Blog** - Searchable blog listing with categories
-6. **Blog Post** - Full article with sharing options
-7. **Achievements** - Achievement cards grouped by category
+1. **Home** - Hero section with CTA buttons
+2. **About** - Profile info + integrated achievements
+3. **Projects** - Project grid with search/filter
+4. **Project Detail** - Full project case study
+5. **Blog** - Blog listing with filtering
+6. **Blog Post** - Individual article view
+7. **Admin** - Content management dashboard
 
 ## 🔧 Customization
 
-### Updating Content
-Edit the JSON files in `/server/data/`:
-- `profile.json` - Personal information
-- `projects.json` - Project case studies
-- `blogs.json` - Blog posts
-- `achievements.json` - Achievements and credentials
+### Update Content
+Edit JSON files in `/public/data/` to update:
+- Profile information
+- Projects
+- Blog posts
+- Achievements
+- Social links
 
-### Changing Colors
-Edit `tailwind.config.js` to update the color palette:
+### Change Theme
+Edit `tailwind.config.js` to modify colors:
 ```js
-colors: {
-  primary: { ... },
-  accent: { ... },
+theme: {
+  extend: {
+    colors: {
+      primary: '#3b82f6', // Slate Blue
+      accent: '#14b8a6',   // Teal
+    }
+  }
 }
 ```
 
-### Adding Pages
-1. Create a new page component in `/client/src/pages/`
-2. Add the route in `/client/src/App.jsx`
-3. Update navigation in `/client/src/components/Navbar.jsx`
+### Add New Pages
+1. Create component in `/src/pages/`
+2. Add route in `/src/App.jsx`
+3. Update `/src/components/Navbar.jsx` navigation
 
 ## 📄 License
 

@@ -38,3 +38,9 @@ export async function fetchAchievements() {
   if (!response.ok) throw new Error('Failed to fetch achievements');
   return response.json();
 }
+
+export async function fetchSocial() {
+  const response = await fetch(`${API_BASE}/social.json`);
+  if (!response.ok) throw new Error('Failed to fetch social links');
+  return response.json();
+}

@@ -60,9 +60,11 @@ export default function Home() {
                 className="h-full flex items-center justify-center"
               >
                 <div className="w-full max-w-sm aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary-500/20 to-accent-500/20 dark:from-primary-500/10 dark:to-accent-500/10 flex items-center justify-center border border-primary-200 dark:border-primary-800">
-                  <div className="w-full h-full bg-gradient-to-br from-dark-100 dark:from-dark-800 to-dark-200 dark:to-dark-700 flex items-center justify-center">
-                    <span className="text-dark-400 dark:text-dark-500 text-sm">Your Picture Here</span>
-                  </div>
+                  <img 
+                    src="/data/puneet-nb" 
+                    alt="Profile" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </motion.div>
             </FadeIn>

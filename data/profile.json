@@ -1,0 +1,81 @@
+{
+  "name": "Puneet Singh",
+  "nickname": "Puneet",
+  "title": "A seasoned Product & Tech leader",
+  "tagline": "Building products that scale, and strategies that ship.",
+  "email": "puneet.singh@iiml.org",
+  "location": "India",
+  "summary": "B.Tech from IIT Roorkee and MBA from IIM Lucknow. Background includes shaping product direction in cloud, AI and blockchain, plus leading teams shipping platform products with scale in mind.",
+  "bio": [
+    "I've spent close to 2 decades at the intersection of technology and business, transforming complex technical challenges into products that create real value.",
+    "My journey from engineering at IIT Roorkee to business strategy at IIM Lucknow gave me a unique lens—one that sees both the code and the customer.",
+    "I believe great products emerge from deep user empathy, rigorous prioritization, and teams empowered to do their best work."
+  ],
+  "personalNote": "When I'm not building products, you'll find me tinkering with emerging technologies, writing about product strategy, and speaking at conferences. I believe in continuous learning and sharing knowledge with the community.",
+  "education": [
+    {
+      "institution": "Scaled Agile, Inc.",
+      "degree": "PoPM",
+      "focus": "Product Management",
+      "icon": "Briefcase"
+    },
+    {
+      "institution": "IIM Lucknow",
+      "degree": "MBA",
+      "focus": "Strategy & Finance",
+      "icon": "GraduationCap"
+    },
+    {
+      "institution": "HSG,Universität St.Gallen",
+      "degree": "International Students Program",
+      "focus": "Strategy & Finance",
+      "icon": "Globe"
+    },
+    {
+      "institution": "IIT Roorkee",
+      "degree": "B.Tech",
+      "focus": "Electrical Engineering",
+      "icon": "GraduationCap"
+    }
+  ],
+  "expertise": [
+    {
+      "name": "Product Strategy",
+      "icon": "Target"
+    },
+    {
+      "name": "Platform Architecture",
+      "icon": "Code2"
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "icon": "TrendingUp"
+    },
+    {
+      "name": "Blockchain Solutions",
+      "icon": "Lightbulb"
+    },
+    {
+      "name": "Team Leadership",
+      "icon": "Users"
+    },
+    {
+      "name": "Enterprise Scale",
+      "icon": "Briefcase"
+    },
+    {
+      "name": "Go-to-Market",
+      "icon": "TrendingUp"
+    },
+    {
+      "name": "Technical Vision",
+      "icon": "Sparkles"
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/puneet-iiml",
+    "twitter": "https://twitter.com/puneetsingh",
+    "github": "https://github.com/puneetsingh"
+  },
+  "funFact": "Managed Products in 3 countries, used by 10M+ users"
+}

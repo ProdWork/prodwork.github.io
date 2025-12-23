@@ -1,92 +1,234 @@
 [
   {
-    "id": "blockchain-identity",
-    "title": "Blockchain-based Digital Identity System",
-    "shortDescription": "A decentralized identity verification platform enabling secure, user-controlled digital credentials for enterprise authentication.",
-    "fullDescription": "Led the strategic vision and execution of a groundbreaking digital identity platform leveraging blockchain technology. The system enables individuals and organizations to create, manage, and verify digital identities without centralized authorities, reducing fraud by 94% and onboarding time by 78%.",
-    "role": "Head of Product",
-    "company": "Enterprise Solutions Inc.",
-    "duration": "2022 - 2024",
-    "status": "Shipped",
-    "impact": [
-      "Reduced identity verification time from 5 days to 15 minutes",
-      "Achieved 99.97% fraud prevention rate",
-      "Onboarded 2.3M users in first year",
-      "Generated $18M ARR within 18 months"
-    ],
-    "techStack": ["Ethereum", "Solidity", "React", "Node.js", "PostgreSQL", "AWS", "Zero-Knowledge Proofs"],
-    "methodology": ["Design Thinking", "Agile", "OKRs", "User Research"],
-    "challenges": [
-      "Balancing decentralization with regulatory compliance",
-      "Designing intuitive UX for complex blockchain interactions",
-      "Scaling consensus mechanisms for enterprise load"
-    ],
-    "image": "/images/project-identity.svg",
-    "color": "#6366F1",
-    "metrics": {
-      "users": "2.3M+",
-      "fraudReduction": "94%",
-      "timeToVerify": "15 min"
-    }
-  },
-  {
-    "id": "cloud-risk-platform",
-    "title": "Scalable Cloud Platform for Enterprise Risk Management",
-    "shortDescription": "Multi-cloud risk analytics platform processing 500TB+ daily, enabling real-time compliance monitoring across global enterprises.",
-    "fullDescription": "Architected and launched a comprehensive cloud-native platform for enterprise risk management. The solution integrates with major cloud providers, processes massive data streams in real-time, and provides actionable insights for compliance, security, and operational risk.",
-    "role": "VP of Product",
-    "company": "CloudScale Technologies",
-    "duration": "2020 - 2022",
-    "status": "Shipped",
-    "impact": [
-      "Processing 500TB+ data daily across 3 cloud providers",
-      "Reduced compliance audit time by 67%",
-      "Prevented $340M in potential risk exposure",
-      "Served Fortune 500 clients in 12 countries"
-    ],
-    "techStack": ["Kubernetes", "Terraform", "Python", "Apache Kafka", "Snowflake", "GCP", "AWS", "Azure"],
-    "methodology": ["SAFe", "Continuous Discovery", "Data-Driven PM"],
-    "challenges": [
-      "Achieving real-time processing at massive scale",
-      "Navigating multi-cloud security complexities",
-      "Building for global compliance requirements"
-    ],
-    "image": "/images/project-cloud.svg",
-    "color": "#10B981",
-    "metrics": {
-      "dataProcessed": "500TB/day",
-      "auditReduction": "67%",
-      "riskPrevented": "$340M"
-    }
-  },
-  {
-    "id": "predictive-analytics",
-    "title": "Product Analytics Dashboard with Predictive AI",
-    "shortDescription": "AI-powered analytics platform providing predictive insights, automated anomaly detection, and prescriptive recommendations for product teams.",
-    "fullDescription": "Conceptualized and delivered an intelligent analytics dashboard that goes beyond traditional metrics. The platform uses machine learning to predict user behavior, detect anomalies before they impact KPIs, and provide prescriptive recommendations to product managers.",
-    "role": "Director of Product",
-    "company": "DataMind Analytics",
-    "duration": "2019 - 2020",
-    "status": "Shipped",
-    "impact": [
-      "Improved feature adoption rates by 43%",
-      "Reduced churn prediction lead time to 14 days",
-      "Automated 80% of routine analytics tasks",
-      "Adopted by 450+ product teams globally"
-    ],
-    "techStack": ["Python", "TensorFlow", "React", "D3.js", "PostgreSQL", "Redis", "Docker"],
-    "methodology": ["Jobs-to-be-Done", "Rapid Prototyping", "A/B Testing"],
-    "challenges": [
-      "Making ML predictions actionable for non-technical users",
-      "Balancing model accuracy with explainability",
-      "Handling diverse data schemas across integrations"
-    ],
-    "image": "/images/project-analytics.svg",
-    "color": "#F59E0B",
-    "metrics": {
-      "adoptionIncrease": "43%",
-      "predictionWindow": "14 days",
-      "automationRate": "80%"
-    }
+  "id": "blockchain-eam-platform",
+  "title": "Enterprise Asset Transparency Platform Using Blockchain",
+  "shortDescription": "Enterprise blockchain solution improving asset visibility, trust, and operational efficiency across complex partner ecosystems.",
+  "fullDescription": "Drove the product vision and delivery of a blockchain-based Enterprise Asset Management initiative aimed at eliminating asset data silos and trust gaps across large enterprises. The platform established a single, shared source of truth for asset lifecycle data, enabling faster decision-making, improved compliance, and reduced operational friction between asset owners, service providers, and partners.",
+  "role": "Product Management Lead",
+  "company": "IBM",
+  "duration": "2018 - 2019",
+  "impact": [
+    "Reduced manual asset reconciliation and dispute resolution efforts by ~30–40%",
+    "Improved audit readiness and compliance reporting accuracy across asset lifecycle records",
+    "Lowered operational overhead through shared, trusted asset data across stakeholders",
+    "Enabled more informed maintenance, refresh, and asset retirement decisions"
+  ],
+  "projectType": [
+    "IBM Blockchain Platform",
+    "Hyperledger Fabric",
+    "Smart Contracts",
+    "Enterprise Asset Management Platforms"
+  ],
+  "methodology": [
+    "Lean Product Management",
+    "Agile Delivery",
+    "Outcome-Driven Roadmapping"
+  ],
+  "challenges": [
+    "Driving adoption of shared asset governance across independent organizations",
+    "Demonstrating measurable ROI for emerging blockchain technology",
+    "Aligning technical innovation with enterprise operational priorities"
+  ],
+  "image": "/images/project-blockchain-eam.svg",
+  "color": "#1f2937",
+  "metrics": {
+    "costSaving": "25–35%",
+    "returns": "~2.5x",
+    "payback": "~1 yr"
   }
+},
+  {
+  "id": "rta-tars-platform",
+  "title": "RTA Transportation Activities Rental System (TARS)",
+  "shortDescription": "Digital platform streamlining vehicle rental operations and regulatory processes for car rental providers and customers in Dubai.",
+  "fullDescription": "Led the product strategy and launch of the RTA Transportation Activities Rental System (TARS), an online platform designed to modernize and automate regulatory, contracting, and compliance workflows for the automobile rental sector in Dubai. The system provided end-to-end digital services for rental companies and regulatory stakeholders, enabling electronic smart rental contracts, digital compliance validation, and improved service delivery in line with Dubai’s smart city vision.",
+  "role": "Product Management Lead",
+  "company": "RTA Dubai",
+  "duration": "2021 - 2022",
+  "impact": [
+    "Digitized and automated rental contract issuance and compliance workflows for the car rental sector",
+    "Enhanced user experience for both rental companies and end customers through streamlined online services",
+    "Enabled over 840,000 processed rental transactions and broad industry adoption in the first year",
+    "Trained and onboarded nearly 1,000 rental companies onto the digital platform"
+  ],
+  "projectType": [
+    "Enterprise platform",
+    "Digital contracts",
+    "workflow engines",
+    "API-driven",
+    "Integrated with UAE Pass"
+  ],
+  "methodology": [
+    "Agile Product Delivery",
+    "Customer Journey Mapping",
+    "Stakeholder-Driven Prioritization"
+  ],
+  "challenges": [
+    "Bringing a highly regulated industry onto a fully digital compliance platform",
+    "Ensuring robust integration between licensing, inspection, and contract issuance subsystems",
+    "Driving large-scale adoption across diverse rental operators"
+  ],
+  "image": "/images/project-rta-tars.svg",
+  "color": "#047857",
+  "metrics": {
+    "transactions": "840K+ yearly",
+    "companies": "1,451",
+    "vehicles": "118,000+",
+    "impactROI": "2.8–3.6x ROI"
+  }
+},
+  {
+  "id": "trust-your-supplier-platform",
+  "title": "TrustYourSupplier (TYS) Supplier Management Platform",
+  "shortDescription": "Enterprise platform for automated supplier onboarding, compliance, and risk management, improving visibility and operational efficiency across global supply chains.",
+  "fullDescription": "Led product strategy and delivery for TrustYourSupplier (TYS), a next-generation supplier management platform designed to replace fragmented manual processes with a centralized digital system for supplier onboarding, risk assessment, compliance verification, and lifecycle management. The solution integrated automated workflows, real-time risk insights, and data orchestration to streamline supplier operations for procurement, finance, and compliance teams in global enterprises.",
+  "role": "Product Management Lead",
+  "company": "TrustYourSupplier (Enterprise SaaS)",
+  "duration": "2022 - 2024",
+  "impact": [
+    "Accelerated supplier onboarding by 50–60% through automated intake and approval workflows",
+    "Reduced supplier risk and compliance gaps by integrating real-time validation and fraud detection tools",
+    "Improved data completeness and quality with automated verification and deduplication",
+    "Enabled cross-functional alignment across procurement, risk, and finance teams with a single source of supplier truth"
+  ],
+  "projectType": [
+    "SaaS architecture",
+    "Workflow automation",
+    "REST APIs",
+    "Secure document and identity",
+    "Real-time compliance"
+  ],
+  "methodology": [
+    "Agile Product Delivery",
+    "Customer Journey Mapping",
+    "Outcome-Driven Roadmapping"
+  ],
+  "challenges": [
+    "Replacing decentralized, spreadsheet-based processes across large enterprise procurement teams",
+    "Aligning multiple stakeholders on digital compliance requirements",
+    "Ensuring real-time visibility into supplier risk and governance data"
+  ],
+  "image": "/images/project-trustyoursupplier.svg",
+  "color": "#047857",
+  "metrics": {
+    "manualWork": "40–60%",
+    "lesserRisk": "30–50%",
+    "returns": "4x"
+  }},
+  {
+  "id": "accumxchain-coalesce-network",
+  "title": "AccumXChain (Coalesce Network) for NASCO Inc.",
+  "shortDescription": "Blockchain-enabled distributed ledger platform improving data integrity, interoperability, and secure API-driven enterprise workflows for healthcare supply chain operations.",
+  "fullDescription": "Led product strategy and delivery for AccumXChain — a distributed blockchain ledger and API ecosystem built on the Coalesce Network — to modernize secure data exchange, traceability, and interoperability across NASCO’s complex healthcare supply chain and partner ecosystem. The platform enabled decentralized data verification, secure open-source API integration, and immutable audit trails across multiple enterprise systems, reducing reconciliation overhead and improving data quality in mission-critical workflows. The solution was designed to support shared data governance between NASCO and external healthcare partners serving large networks of care providers and insurers.",
+  "role": "Product Management Lead",
+  "company": "Coalesce Network / NASCO Inc.",
+  "duration": "2022 - 2024",
+  "impact": [
+    "Enabled a secure blockchain-backed shared ledger for enterprise data synchronization across distributed healthcare supply chain systems",
+    "Improved trust and auditability of complex partner transactions through cryptographically tamper-evident records",
+    "Reduced cross-system reconciliation effort by an estimated 30–45% using shared state and API-driven integrations",
+    "Accelerated partner onboarding and data exchange velocity through open-source secure ledger APIs"
+  ],
+  "projectType": [
+    "Distributed blockchain ledger (Coalesce Network)",
+    "Secure API ecosystem",
+    "Cryptographic identity & access controls",
+    "Enterprise integration middleware",
+    "Immutable audit trail infrastructure"
+  ],
+  "methodology": [
+    "Agile Product Development",
+    "API-First Architecture",
+    "Interoperability and Data Governance Frameworks"
+  ],
+  "challenges": [
+    "Designing a distributed ledger model that interoperates with existing enterprise healthcare systems",
+    "Establishing secure cross-organization data governance with external partners",
+    "Balancing performance, compliance, and data privacy in regulated healthcare environments"
+  ],
+  "image": "/images/project-accumxchain.svg",
+  "color": "#0f4c81",
+  "metrics": {
+    "reconciliationReduction": "30–45%",
+    "integrationVelocity": "1.5x",
+    "ROI": "3x"
+  }
+  },
+  {
+  "id": "ledgerfunding-trade-finance-mvp",
+  "title": "LedgerFunding Trade Finance MVP",
+  "shortDescription": "Blockchain-enabled working capital finance marketplace MVP connecting exporters, suppliers, and funders with transparent, privacy-preserving trade finance solutions.",
+  "fullDescription": "Directed the requirements analysis, reviewed UI designs, and led a team of 3 developers to deliver an MVP for LedgerFunding’s trade finance platform. The MVP established the foundation for a blockchain-powered working capital financing marketplace that enables businesses to compare real-time funding offers from multiple finance companies, streamline invoice & purchase order financing workflows, and improve transparency, security, and speed of settlement across cross-border trade operations.",
+  "role": "Product Management Lead",
+  "company": "LedgerFunding, Inc.",
+  "duration": "2023 - 2024",
+  "impact": [
+    "Defined end-to-end requirements and product scope for a blockchain-enabled trade finance MVP",
+    "Accelerated delivery of working capital financing workflows for suppliers and exporters",
+    "Improved data integrity and privacy using enterprise blockchain for funding requests and matched offers",
+    "Enabled funder-agnostic selection and comparison of financing solutions, reducing time to capital access"
+  ],
+  "projectType": [
+    "Trade Finance Marketplace",
+    "Blockchain MVP",
+    "Platform Product Development",
+    "B2B FinTech"
+  ],
+  "methodology": [
+    "Agile Product Delivery",
+    "Lean Requirements Analysis",
+    "User-Centered Design"
+  ],
+  "challenges": [
+    "Balancing MVP scope with core trade finance and blockchain requirements",
+    "Designing secure, compliant blockchain data flows for financial instruments",
+    "Translating complex trade finance processes into streamlined platform workflows"
+  ],
+  "image": "/images/project-ledgerfunding.svg",
+  "color": "#0e4d92",
+  "metrics": {
+    "deliveryCycle": "3 months MVP",
+    "reconciliationReduction": "25–40%",
+    "ROI": "3x"
+  }
+},
+{
+  "id": "lbg-wipro-co-innovation",
+  "title": "LBG–Wipro Co-Innovation Project",
+  "shortDescription": "Co-innovation and rapid prototyping initiative delivering emerging-technology solutions for Lloyds Banking Group and global Tier-1 banks.",
+  "fullDescription": "Led innovation discovery, experimentation, and rapid prototyping as part of the LBG–Wipro Co-Innovation Project, a joint initiative between Lloyds Banking Group (UK) and Wipro’s Financial Services practice. The engagement focused on identifying emerging technologies relevant to banking, translating them into viable product concepts, and delivering working prototypes supported by CXO-ready business cases. Collaborated closely with Lloyds innovation teams, Fortune 500 banking clients, and cross-functional engineers to accelerate idea-to-validation cycles and enable informed investment and product decisions.",
+  "role": "Product & Innovation Lead",
+  "company": "Wipro (Client: Lloyds Banking Group, UK)",
+  "duration": "2019 - 2021",
+  "impact": [
+    "Identified and evaluated emerging technologies and fintech startups relevant to core banking, risk, and customer experience",
+    "Converted early-stage ideas into validated prototypes through structured ideation and experimentation",
+    "Enabled CXO-level stakeholders to make informed investment and product decisions using data-backed business cases",
+    "Built innovation capability within client teams through ideation workshops, brown-bag sessions, and hands-on prototyping"
+  ],
+  "projectType": [
+    "Banking Co-Innovation Program",
+    "Rapid Prototyping & Experimentation",
+    "Emerging Technology Evaluation",
+    "Enterprise Product Strategy"
+  ],
+  "methodology": [
+    "Design Thinking",
+    "Lean Experimentation",
+    "Agile Prototyping"
+  ],
+  "challenges": [
+    "Translating emerging technologies into commercially viable banking use cases",
+    "Balancing rapid experimentation with enterprise risk and regulatory constraints",
+    "Driving alignment across innovation, technology, and business leadership teams"
+  ],
+  "image": "/images/project-lbg-wipro-coinnovation.svg",
+  "color": "#1e40af",
+  "metrics": {
+    "prototypesDelivered": "Multiple proof-of-concepts across strategic banking domains",
+    "ideaToPrototypeCycle": "Reduced from months to weeks",
+    "stakeholderLevel": "CXO-level business case presentations",
+    "roi": "Estimated 3–5x ROI through faster validation, reduced experimentation cost, and better investment decisions"
+  }
+}
 ]

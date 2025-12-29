@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "slug": "enterprise-platform-delivery-discipline",
+    "title": "Designing Enterprise Platforms: Why Delivery Discipline Matters More Than Vision",
+    "date": "2019-03-18",
+    "excerpt": "Early lessons from enterprise platforms where execution rigor and governance mattered more than feature innovation.",
+    "readTime": "7 min read",
+    "category": "Product Delivery",
+    "tags": [
+      "Enterprise",
+      "Delivery",
+      "Platforms",
+      "Product Management"
+    ],
+    "featured": false,
+    "content": "In enterprise environments, great ideas are common. What is rare is disciplined execution. Early in my work on large platforms, I learned that vision alone does not create impact. Delivery discipline does.\n\nEnterprise platforms operate under constraints\u2014multiple stakeholders, regulatory oversight, legacy integrations, and risk sensitivity. In these environments, poorly sequenced delivery can erode trust faster than missing a feature. Teams often underestimate how quickly credibility is lost when timelines slip or commitments are unclear.\n\nDelivery discipline starts with clarity. Clear scope boundaries, explicit ownership, and realistic milestones do more to enable innovation than ambitious roadmaps. I have seen teams regain momentum simply by reducing ambiguity and enforcing basic delivery hygiene.\n\nOver time, I began viewing delivery discipline not as operational overhead, but as a leadership capability. Platforms that succeed are rarely the most visionary; they are the ones that consistently do what they say they will do.",
+    "heroImage": "/data/blog-images/enterprise-platform-delivery-discipline.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "consulting-to-product-transition",
+    "title": "From Consulting to Product: What Actually Changes",
+    "date": "2019-07-07",
+    "excerpt": "What shifts when you move from advising on strategy to owning real product outcomes.",
+    "readTime": "6 min read",
+    "category": "Career",
+    "tags": [
+      "Consulting",
+      "Product Management",
+      "Career"
+    ],
+    "featured": false,
+    "content": "Moving from consulting to product management is often described as a mindset shift. In practice, it is a shift in accountability.\n\nConsulting rewards insight, structure, and persuasion. Product management rewards endurance, judgment, and ownership over time. As a consultant, the work often ends with a recommendation. As a product manager, the work begins there.\n\nWhat surprised me most was how decisions compound. Early trade-offs around scope, architecture, or governance continue to surface months or years later. Unlike consulting, there is no clean reset.\n\nThis transition forced me to become more comfortable with uncertainty and imperfect information. Product work is less about being right upfront and more about staying accountable as reality unfolds.",
+    "heroImage": "/data/blog-images/consulting-to-product-transition.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "blockchain-pilots-why-they-fail",
+    "title": "Why Most Blockchain Pilots Fail Before Production",
+    "date": "2019-11-22",
+    "excerpt": "Lessons from early enterprise blockchain initiatives and why most never reach scale.",
+    "readTime": "8 min read",
+    "category": "Blockchain",
+    "tags": [
+      "Blockchain",
+      "Enterprise",
+      "Platforms"
+    ],
+    "featured": true,
+    "content": "In the early wave of enterprise blockchain pilots, technology was rarely the limiting factor. Governance was.\n\nMost pilots struggled with unclear incentives, shared ownership, and operational ambiguity. While the technology promised decentralization, decision-making often remained centralized, creating friction.\n\nAnother common failure point was integration with existing systems. Blockchain solutions were treated as standalone experiments rather than production platforms.\n\nSuccessful pilots focused less on novelty and more on operational realities\u2014who maintains the system, who bears risk, and how disputes are resolved. Without these answers, pilots inevitably stalled.",
+    "heroImage": "/data/blog-images/blockchain-pilots-why-they-fail.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "building-trust-data-sharing-platforms",
+    "title": "Building Trust in Data Sharing Platforms",
+    "date": "2020-02-14",
+    "excerpt": "Why governance and incentives matter more than architecture in multi-party ecosystems.",
+    "readTime": "7 min read",
+    "category": "Platform Strategy",
+    "tags": [
+      "Data",
+      "Trust",
+      "Ecosystems"
+    ],
+    "featured": false,
+    "content": "Trust is not a feature you can ship. It is an outcome you must earn.\n\nIn multi-party data platforms, trust emerges from transparency, consistency, and fairness. Technical controls are necessary but insufficient. Participants need confidence that rules are enforced evenly and changes are predictable.\n\nI have seen platforms fail not because data was insecure, but because stakeholders did not trust how decisions were made.\n\nDesigning for trust requires explicit governance, visible auditability, and mechanisms for recourse. Without these, even technically sound platforms struggle to scale.",
+    "heroImage": "/data/blog-images/building-trust-data-sharing-platforms.jpg"
+  },
+  {
+    "id": 5,
+    "slug": "health-insurance-product-lessons",
+    "title": "Product Lessons from the US Health Insurance Ecosystem",
+    "date": "2020-06-03",
+    "excerpt": "What building across payers, PBMs, and providers taught me about alignment at scale.",
+    "readTime": "9 min read",
+    "category": "Healthcare",
+    "tags": [
+      "Healthcare",
+      "Platforms",
+      "Product"
+    ],
+    "featured": false,
+    "content": "The US health insurance ecosystem is a masterclass in misaligned incentives.\n\nBuilding products across payers, PBMs, and providers revealed how fragmentation shapes behavior. Each participant optimizes locally, often at the expense of system-wide efficiency.\n\nProduct success in this environment depends on understanding incentives deeply. Features that appear logical can fail if they disrupt established workflows.\n\nThe lesson was clear: effective healthcare products adapt to the ecosystem rather than attempting to overhaul it overnight.",
+    "heroImage": "/data/blog-images/health-insurance-product-lessons.jpg"
+  },
+  {
+    "id": 6,
+    "slug": "real-time-data-regulated-systems",
+    "title": "Designing for Real-Time Data in Regulated Environments",
+    "date": "2020-09-29",
+    "excerpt": "Balancing latency, accuracy, and compliance in real-time enterprise systems.",
+    "readTime": "8 min read",
+    "category": "Architecture",
+    "tags": [
+      "Real-time",
+      "Compliance",
+      "Enterprise"
+    ],
+    "featured": false,
+    "content": "Real-time data introduces urgency\u2014and risk.\n\nIn regulated environments, faster is not always better. Latency reductions must be balanced against data quality, auditability, and compliance requirements.\n\nI learned to treat real-time capabilities as progressive enhancements rather than defaults. Not every workflow benefits equally.\n\nCareful segmentation of use cases allows teams to deliver value without compromising controls.",
+    "heroImage": "/data/blog-images/real-time-data-regulated-systems.jpg"
+  },
+  {
+    "id": 7,
+    "slug": "zero-to-pilot-eight-months",
+    "title": "From Zero to Pilot: What It Takes to Launch a Platform in 8 Months",
+    "date": "2021-01-17",
+    "excerpt": "A realistic breakdown of sequencing, scope control, and delivery risk.",
+    "readTime": "10 min read",
+    "category": "Product Delivery",
+    "tags": [
+      "0-to-1",
+      "Delivery",
+      "Platforms"
+    ],
+    "featured": true,
+    "content": "Launching an enterprise platform in under a year is less about speed and more about sequencing. In one such initiative, we deliberately avoided building a broad feature set and instead focused on a narrow, credible pilot.\n\nThe key was identifying what absolutely needed to exist for a real customer to use the platform end-to-end. Everything else was deferred. This meant saying no repeatedly, even to reasonable requests.\n\nWe spent disproportionate time on integration readiness, access control, and operational workflows. These were not glamorous, but without them, the pilot would have failed.\n\nThe result was a production-grade pilot that built confidence with stakeholders and created a strong foundation for scale.",
+    "heroImage": "/data/blog-images/zero-to-pilot-eight-months.jpg"
+  },
+  {
+    "id": 8,
+    "slug": "definition-of-done-leadership-tool",
+    "title": "Why Definition of Done Is a Leadership Tool",
+    "date": "2021-04-11",
+    "excerpt": "How clear acceptance criteria reduce friction and delivery risk.",
+    "readTime": "6 min read",
+    "category": "Agile",
+    "tags": [
+      "Agile",
+      "Delivery",
+      "Leadership"
+    ],
+    "featured": false,
+    "content": "Teams rarely disagree on goals; they disagree on what \u2018done\u2019 means.\n\nI have seen delivery slow down not because of lack of effort, but because expectations were implicit. Different stakeholders assumed different outcomes.\n\nTreating Definition of Done as a leadership responsibility\u2014not a team artifact\u2014changed this dynamic. Clear acceptance criteria aligned engineering, product, and operations.\n\nWhen \u2018done\u2019 includes stability, documentation, and readiness, delivery becomes predictable and trust improves.",
+    "heroImage": "/data/blog-images/definition-of-done-leadership-tool.jpg"
+  },
+  {
+    "id": 9,
+    "slug": "supplier-onboarding-product-problem",
+    "title": "Supplier Onboarding Is a Product Problem, Not an Operations Problem",
+    "date": "2021-08-06",
+    "excerpt": "Why onboarding must be designed as a scalable product capability.",
+    "readTime": "8 min read",
+    "category": "B2B SaaS",
+    "tags": [
+      "Onboarding",
+      "Suppliers",
+      "Platforms"
+    ],
+    "featured": false,
+    "content": "Supplier onboarding is often treated as an operational afterthought. In reality, it is one of the most critical product experiences.\n\nManual onboarding does not scale, introduces risk, and creates frustration on both sides. Treating onboarding as a product capability\u2014complete with workflows, validation, and feedback loops\u2014dramatically improves adoption.\n\nIn platforms dealing with thousands of suppliers, small improvements compound quickly.\n\nGood onboarding design reduces support load and accelerates value realization.",
+    "heroImage": "/data/blog-images/supplier-onboarding-product-problem.jpg"
+  },
+  {
+    "id": 10,
+    "slug": "enterprise-integrations-hard-truths",
+    "title": "Enterprise Integrations: What No One Tells You",
+    "date": "2021-12-02",
+    "excerpt": "Hard-earned lessons from dependency-heavy platform integrations.",
+    "readTime": "9 min read",
+    "category": "Integration",
+    "tags": [
+      "APIs",
+      "Enterprise",
+      "Delivery"
+    ],
+    "featured": false,
+    "content": "Enterprise integrations are rarely blocked by APIs. They are blocked by ownership, timelines, and assumptions.\n\nTeams often underestimate the coordination cost of integrations. External dependencies move slower, priorities change, and documentation lags reality.\n\nSuccessful integration delivery requires explicit ownership, frequent checkpoints, and contingency planning.\n\nIgnoring these realities turns integrations into silent schedule killers.",
+    "heroImage": "/data/blog-images/enterprise-integrations-hard-truths.jpg"
+  },
+  {
+    "id": 11,
+    "slug": "products-that-survive-governance",
+    "title": "Designing Products That Survive Governance",
+    "date": "2022-03-19",
+    "excerpt": "Why governance-aware products scale better in enterprises.",
+    "readTime": "7 min read",
+    "category": "Enterprise Product",
+    "tags": [
+      "Governance",
+      "Compliance",
+      "Product"
+    ],
+    "featured": false,
+    "content": "Governance is often framed as a blocker. In practice, it is a filter.\n\nProducts that anticipate governance requirements\u2014audit trails, access controls, change management\u2014scale more smoothly.\n\nWhen governance is treated as an afterthought, teams face rework and delays.\n\nDesigning with governance in mind is not conservative; it is pragmatic.",
+    "heroImage": "/data/blog-images/products-that-survive-governance.jpg"
+  },
+  {
+    "id": 12,
+    "slug": "scaling-trustyoursupplier",
+    "title": "Scaling TrustYourSupplier: Lessons from a 0\u21921 SaaS Journey",
+    "date": "2022-06-27",
+    "excerpt": "Reflections from building and scaling a supplier identity platform.",
+    "readTime": "10 min read",
+    "category": "SaaS",
+    "tags": [
+      "SaaS",
+      "0-to-1",
+      "Enterprise"
+    ],
+    "featured": true,
+    "content": "Scaling a SaaS platform from early customers to enterprise adoption requires a shift in mindset.\n\nEarly success comes from speed and flexibility. Scale requires consistency and control.\n\nAt TrustYourSupplier, we focused on standardizing onboarding, strengthening identity verification, and improving operational visibility.\n\nThese investments paid off as customer confidence increased and onboarding times dropped significantly.",
+    "heroImage": "/data/blog-images/scaling-trustyoursupplier.jpg"
+  },
+  {
+    "id": 13,
+    "slug": "launching-government-platform",
+    "title": "What I Learned from Launching a Government Platform",
+    "date": "2022-10-08",
+    "excerpt": "Delivering regulated platforms where adoption is mandatory but trust is not.",
+    "readTime": "8 min read",
+    "category": "GovTech",
+    "tags": [
+      "Government",
+      "Platforms",
+      "Delivery"
+    ],
+    "featured": false,
+    "content": "Government platforms operate under unique constraints\u2014policy, public scrutiny, and long-term accountability.\n\nEven when adoption is mandated, trust must be earned.\n\nClear communication, predictable behavior, and transparent rules were more important than feature richness.\n\nThe experience reinforced the importance of stability and clarity in public-sector platforms.",
+    "heroImage": "/data/blog-images/launching-government-platform.jpg"
+  },
+  {
+    "id": 14,
+    "slug": "roadmaps-and-dependencies",
+    "title": "Why Platform Roadmaps Fail Without Dependency Thinking",
+    "date": "2023-01-23",
+    "excerpt": "Roadmaps break when dependencies are assumed instead of owned.",
+    "readTime": "7 min read",
+    "category": "Product Strategy",
+    "tags": [
+      "Roadmaps",
+      "Dependencies",
+      "Enterprise"
+    ],
+    "featured": false,
+    "content": "Roadmaps often look clean on slides and fall apart in execution.\n\nThe missing element is dependency ownership. Cross-team and external dependencies introduce uncertainty that must be actively managed.\n\nExplicit dependency tracking and escalation mechanisms turn optimistic plans into realistic ones.\n\nWithout this, roadmaps become aspirational rather than actionable.",
+    "heroImage": "/data/blog-images/roadmaps-and-dependencies.jpg"
+  },
+  {
+    "id": 15,
+    "slug": "iam-hidden-complexity",
+    "title": "The Hidden Complexity of IAM in Enterprise Platforms",
+    "date": "2023-05-12",
+    "excerpt": "Why identity and access should be first-class platform capabilities.",
+    "readTime": "9 min read",
+    "category": "Security",
+    "tags": [
+      "IAM",
+      "Security",
+      "Platforms"
+    ],
+    "featured": true,
+    "content": "Identity and Access Management is often underestimated until it breaks.\n\nIAM touches every workflow\u2014onboarding, daily use, audits, and offboarding.\n\nDesigning IAM as a core platform service rather than a bolt-on reduces risk and improves user experience.\n\nIt is one of the highest-leverage investments a platform team can make.",
+    "heroImage": "/data/blog-images/iam-hidden-complexity.jpg"
+  },
+  {
+    "id": 16,
+    "slug": "day0-day1-day2-experiences",
+    "title": "Designing Day-0, Day-1, and Day-2 Experiences",
+    "date": "2023-09-04",
+    "excerpt": "A lifecycle framework for enterprise onboarding and access.",
+    "readTime": "8 min read",
+    "category": "Platform UX",
+    "tags": [
+      "Onboarding",
+      "UX",
+      "Enterprise"
+    ],
+    "featured": false,
+    "content": "Most products obsess over first-use experiences. Enterprise platforms must go further.\n\nDay-0 readiness, Day-1 productivity, and Day-2 governance all matter.\n\nDesigning for the full lifecycle reduces churn, support load, and compliance risk.\n\nLifecycle thinking separates usable platforms from scalable ones.",
+    "heroImage": "/data/blog-images/day0-day1-day2-experiences.jpg"
+  },
+  {
+    "id": 17,
+    "slug": "reducing-onboarding-time",
+    "title": "Reducing Customer Onboarding Time Without Cutting Corners",
+    "date": "2023-12-15",
+    "excerpt": "How structure and automation reduced onboarding from weeks to hours.",
+    "readTime": "7 min read",
+    "category": "Product Delivery",
+    "tags": [
+      "Onboarding",
+      "Automation",
+      "Enterprise"
+    ],
+    "featured": false,
+    "content": "Speed is often confused with shortcuts.\n\nBy standardizing workflows, automating validations, and clarifying ownership, onboarding time dropped dramatically without increasing risk.\n\nThe key was removing ambiguity rather than effort.\n\nPredictable onboarding builds long-term trust.",
+    "heroImage": "/data/blog-images/reducing-onboarding-time.jpg"
+  },
+  {
+    "id": 18,
+    "slug": "platform-pm-delivery-mindset",
+    "title": "Why Platform PMs Must Think Like Delivery Managers",
+    "date": "2024-02-09",
+    "excerpt": "Where product ownership ends and delivery accountability begins.",
+    "readTime": "6 min read",
+    "category": "Product Leadership",
+    "tags": [
+      "Platforms",
+      "Delivery",
+      "Leadership"
+    ],
+    "featured": false,
+    "content": "Platform PMs operate in complex environments with many dependencies.\n\nThinking like a delivery manager\u2014sequencing, risk management, and communication\u2014improves outcomes.\n\nVision matters, but execution sustains trust.\n\nBlending these roles is increasingly essential.",
+    "heroImage": "/data/blog-images/platform-pm-delivery-mindset.jpg"
+  },
+  {
+    "id": 19,
+    "slug": "using-ai-tools-as-pm",
+    "title": "Using AI Tools as a PM: What Actually Works",
+    "date": "2024-05-21",
+    "excerpt": "Practical AI usage for ideation, research, and acceptance criteria.",
+    "readTime": "8 min read",
+    "category": "AI in Product",
+    "tags": [
+      "AI",
+      "Product Management",
+      "Tools"
+    ],
+    "featured": true,
+    "content": "AI tools are most effective when used to accelerate thinking, not replace it.\n\nI have found value in research synthesis, drafting, and scenario exploration.\n\nThe risk lies in over-trusting outputs without context.\n\nJudgment remains the core PM skill.",
+    "heroImage": "/data/blog-images/using-ai-tools-as-pm.jpg"
+  },
+  {
+    "id": 20,
+    "slug": "ai-agents-product-teams",
+    "title": "AI Agents in Product Teams: Early Experiments and Guardrails",
+    "date": "2024-08-30",
+    "excerpt": "Lessons from prototyping AI agents responsibly in product workflows.",
+    "readTime": "9 min read",
+    "category": "AI",
+    "tags": [
+      "AI Agents",
+      "Automation",
+      "Product"
+    ],
+    "featured": false,
+    "content": "AI agents introduce autonomy, which increases both leverage and risk.\n\nEarly experiments showed promise in repetitive tasks but required clear boundaries.\n\nHuman oversight and rollback mechanisms are essential.\n\nResponsible experimentation builds confidence without eroding trust.",
+    "heroImage": "/data/blog-images/ai-agents-product-teams.jpg"
+  },
+  {
+    "id": 21,
+    "slug": "building-platforms-banks-trust",
+    "title": "Building Platforms Banks Can Trust",
+    "date": "2025-01-18",
+    "excerpt": "Why resilience, controls, and predictability matter in banking platforms.",
+    "readTime": "8 min read",
+    "category": "FinTech",
+    "tags": [
+      "Banking",
+      "Platforms",
+      "Enterprise"
+    ],
+    "featured": true,
+    "content": "Banks prioritize stability, predictability, and control.\n\nPlatforms serving banks must be resilient by design.\n\nClear controls, strong auditability, and transparent delivery build long-term trust.\n\nInnovation succeeds when reliability is non-negotiable.",
+    "heroImage": "/data/blog-images/building-platforms-banks-trust.jpg"
+  },
+  {
+    "id": 22,
+    "slug": "senior-product-calm-execution",
+    "title": "Why Senior Product Roles Are About Calm Execution",
+    "date": "2025-06-05",
+    "excerpt": "How seniority shifts product work from ideas to judgment and alignment.",
+    "readTime": "6 min read",
+    "category": "Leadership",
+    "tags": [
+      "Leadership",
+      "Product",
+      "Execution"
+    ],
+    "featured": false,
+    "content": "At senior levels, chaos spreads quickly.\n\nCalm execution\u2014clear decisions, measured communication, and steady progress\u2014sets the tone.\n\nIdeas matter less than judgment.\n\nLeadership is reflected in how uncertainty is handled.",
+    "heroImage": "/data/blog-images/senior-product-calm-execution.jpg"
+  }
+]

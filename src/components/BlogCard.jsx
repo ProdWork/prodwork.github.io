@@ -9,6 +9,14 @@ export default function BlogCard({ post, index, featured = false }) {
     day: 'numeric'
   });
 
+  const fallbackImage = `https://picsum.photos/seed/${encodeURIComponent(post.slug)}/900/600`;
+  const imageUrl = post.heroImage || post.image || fallbackImage;
+  const handleImageError = (event) => {
+    const target = event.currentTarget;
+    target.onerror = null;
+    target.src = fallbackImage;
+  };
+
   if (featured) {
     return (
       <motion.article
@@ -25,7 +33,14 @@ export default function BlogCard({ post, index, featured = false }) {
           <div className="glass-card overflow-hidden card-hover">
             <div className="grid md:grid-cols-2 gap-6">
               {/* Featured visual */}
-              <div className="relative h-48 md:h-full min-h-[250px] bg-gradient-to-br from-primary-500/20 via-accent-500/10 to-primary-500/5 dark:from-primary-500/10 dark:via-accent-500/5 dark:to-primary-500/3">
+              <div className="relative h-48 md:h-full min-h-[250px] overflow-hidden rounded-3xl bg-dark-200/50">
+                <img
+                  src={imageUrl}
+                  alt={`${post.title} cover`}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  onError={handleImageError}
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-500/30 via-accent-500/10 to-primary-500/10 opacity-80" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <motion.div
@@ -101,6 +116,14 @@ export default function BlogCard({ post, index, featured = false }) {
     >
       <Link to={`/blog/${post.slug}`}>
         <div className="glass-card p-6 h-full card-hover flex flex-col">
+          <div className="mb-4 h-44 rounded-2xl overflow-hidden">
+            <img
+              src={imageUrl}
+              alt={`${post.title} cover`}
+              className="w-full h-full object-cover"
+              onError={handleImageError}
+            />
+          </div>
           {/* Meta */}
           <div className="flex items-center gap-3 text-sm text-dark-500 dark:text-dark-400 mb-3">
             <span className="flex items-center gap-1.5">

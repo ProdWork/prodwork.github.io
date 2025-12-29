@@ -6,9 +6,9 @@
       "url": "https://linkedin.com/in/puneet-iiml"
     },
     {
-      "name": "GitHub",
-      "icon": "Github",
-      "url": "https://github.com/prodwork"
+      "name": "Resume",
+      "icon": "FileText",
+      "url": "/data/Puneet.pdf"
     },
     {
       "name": "Email",

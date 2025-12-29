@@ -8,8 +8,7 @@ import {
   Tag,
   Share2,
   Link2,
-  ChevronRight,
-  FileText
+  ChevronRight
 } from 'lucide-react';
 import PageTransition, { FadeIn } from '../components/PageTransition';
 import { PageLoader } from '../components/LoadingSpinner';

@@ -10,7 +10,6 @@ import {
   Heart,
   Quote,
   Linkedin,
-  FileText,
   ExternalLink,
   Sparkles,
   Code2,
@@ -48,7 +47,6 @@ const iconMap = {
 
 const socialIconMap = {
   Linkedin,
-  FileText,
   Mail,
 };
 

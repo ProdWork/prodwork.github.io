@@ -5,11 +5,11 @@
       "icon": "Linkedin",
       "url": "https://linkedin.com/in/puneet-iiml"
     },
-    {
+     {
       "name": "Resume",
-      "icon": "BookOpen",
-      "url": "/data/Puneet.pdf"
-    },
+      "icon": "Mail",
+      "url": "mailto:puneet.singh@iiml.org"
+    }
     {
       "name": "Email",
       "icon": "Mail",

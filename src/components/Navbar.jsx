@@ -10,7 +10,8 @@ import {
   Home, 
   User, 
   Briefcase, 
-  Sparkles
+  Sparkles,
+  BookOpen
 } from 'lucide-react';
 import { fetchSocial } from '../services/api';
 

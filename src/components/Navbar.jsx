@@ -15,13 +15,6 @@ import {
 } from 'lucide-react';
 import { fetchSocial } from '../services/api';
 
-const iconMap = {
-  Linkedin: 'Linkedin',
-  Twitter: 'Twitter',
-  Mail: 'Mail',
-  BookOpen: 'BookOpen'
-};
-
 const navItems = [
   { name: 'Home', path: '/', icon: Home },
   { name: 'About', path: '/about', icon: User },

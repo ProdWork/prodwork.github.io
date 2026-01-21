@@ -9,26 +9,29 @@ A modern, responsive portfolio website built with React and TailwindCSS.
 - **Animations** - Smooth page transitions and micro-interactions with Framer Motion
 - **Responsive** - Mobile-first design that works on all devices
 - **Fast** - Optimized for performance with Vite
-- **Client-Only** - Static JSON data served from public folder
+- **Client-Only** - Static JSON data and assets
 
 ## 📁 Project Structure
 
 ```
 prodwork.github.io/
-├── public/                # Static assets
-│   ├── blogs/            # Markdown blog files
-│   ├── data/             # JSON data files
-│   │   ├── profile.json
-│   │   ├── projects.json
-│   │   ├── achievements.json
-│   │   └── social.json
-│   └── favicon.svg
 ├── src/
+│   ├── blogs/            # Markdown blog files
 │   ├── components/       # Reusable UI components
 │   ├── context/          # React context (Theme)
 │   ├── hooks/            # Custom React hooks
 │   ├── pages/            # Page components
 │   ├── services/         # API service functions
+│   ├── static/           # Static assets (copied to dist root)
+│   │   ├── data/         # JSON data files
+│   │   │   ├── profile.json
+│   │   │   ├── projects.json
+│   │   │   ├── achievements.json
+│   │   │   ├── social.json
+│   │   │   └── blog-images/
+│   │   ├── 404.html
+│   │   ├── CNAME
+│   │   └── favicon.svg
 │   ├── App.jsx           # Main app component
 │   ├── main.jsx          # Entry point
 │   └── index.css         # Global styles
@@ -106,11 +109,15 @@ git push origin gh-pages
 
 All data is stored as static files:
 
-- **Blogs** - Stored as Markdown files in `/public/blogs/` with YAML frontmatter
-- **profile.json** - Personal information, skills, education
-- **projects.json** - Project portfolio with details
-- **achievements.json** - Achievements, certifications, statistics
-- **social.json** - Social media links
+- **Blogs** - Stored as Markdown files in `/src/blogs/` with YAML frontmatter
+- **Static assets** - JSON files and images in `/src/static/`:
+  - `profile.json` - Personal information, skills, education
+  - `projects.json` - Project portfolio with details
+  - `achievements.json` - Achievements, certifications, statistics
+  - `social.json` - Social media links
+  - `blog-images/` - Blog post hero images
+  - `404.html` - Custom error page
+  - `CNAME` - GitHub Pages domain configuration
 
 ## 📱 Pages
 

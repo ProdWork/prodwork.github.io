@@ -4,12 +4,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/',
-  publicDir: 'public',
+  publicDir: 'src/static',
   server: {
     port: 3000,
-    // Enable watching of markdown files in public/blogs
+    // Enable watching of markdown files in src/blogs
     watch: {
-      includes: ['src/**', 'public/**/*.md'],
+      includes: ['src/**'],
       ignored: ['**/node_modules/**'],
     },
   },

@@ -71,7 +71,7 @@ export async function fetchBlogs() {
 
   // Parse markdown files from blogs directory
   // This uses Vite's import.meta.glob which is processed at build time
-  const modules = import.meta.glob('/public/blogs/*.md', { query: '?raw', import: 'default' });
+  const modules = import.meta.glob('/src/blogs/*.md', { query: '?raw', import: 'default' });
   const blogs = [];
 
   for (const [filepath, importFn] of Object.entries(modules)) {

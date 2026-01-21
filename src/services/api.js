@@ -69,19 +69,6 @@ export async function fetchBlogs() {
     return blogsCache;
   }
 
-  try {
-    // Fallback: try to fetch blogs.json if it exists (for backward compatibility)
-    const response = await fetch(`${API_BASE}/blogs.json`);
-    if (response.ok) {
-      const blogs = await response.json();
-      blogsCache = blogs;
-      blogsCacheTime = now;
-      return blogs;
-    }
-  } catch (e) {
-    // Continue to markdown parsing
-  }
-
   // Parse markdown files from blogs directory
   // This uses Vite's import.meta.glob which is processed at build time
   const modules = import.meta.glob('/public/blogs/*.md', { query: '?raw', import: 'default' });

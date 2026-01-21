@@ -16,10 +16,10 @@ A modern, responsive portfolio website built with React and TailwindCSS.
 ```
 prodwork.github.io/
 ├── public/                # Static assets
+│   ├── blogs/            # Markdown blog files
 │   ├── data/             # JSON data files
 │   │   ├── profile.json
 │   │   ├── projects.json
-│   │   ├── blogs.json
 │   │   ├── achievements.json
 │   │   └── social.json
 │   └── favicon.svg
@@ -104,11 +104,11 @@ git push origin gh-pages
 
 ## 📄 Data Structure
 
-All data is stored as static JSON in `/public/data/`:
+All data is stored as static files:
 
+- **Blogs** - Stored as Markdown files in `/public/blogs/` with YAML frontmatter
 - **profile.json** - Personal information, skills, education
 - **projects.json** - Project portfolio with details
-- **blogs.json** - Blog posts and articles
 - **achievements.json** - Achievements, certifications, statistics
 - **social.json** - Social media links
 

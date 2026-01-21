@@ -17,9 +17,9 @@ Higher ROI: For every $1.00 a company spent on privacy in early 2019, they recei
 
 Reduced Risk: Only 37% of privacy-focused companies suffered a major data breach cost, compared to 64% of those who treated consent as an afterthought.
 
-<h2>The Shift from Compliance to Trust</h2>
+**The Shift from Compliance to Trust**
 
-<p>Think about your own digital life. When an app asks for access to your location and microphone without a clear reason, do you feel safe or suspicious? In early 2019, a <b>McKinsey survey</b> highlighted this growing consumer awareness, finding that <b>87% of consumers</b> would not do business with a company if they had concerns about its security or data practices.</p>
+Think about your own digital life. When an app asks for access to your location and microphone without a clear reason, do you feel safe or suspicious? In early 2019, a McKinsey survey highlighted this growing consumer awareness, finding that 87% of consumers would not do business with a company if they had concerns about its security or data practices.
 
 <p>By treating consent as a <b>differentiator</b>, companies move away from "dark patterns"—those confusing pop-ups and hidden checkboxes designed to trick you into sharing more than you intend. Instead, they embrace <b>Transparency by Design</b>. When a company clearly explains <i>why</i> they need your data and gives you granular control over it, they aren't just following a rule; they are earning your loyalty.</p>
 

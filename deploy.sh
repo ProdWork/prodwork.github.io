@@ -66,7 +66,8 @@ echo ""
 
 # Commit and push
 echo "💾 Committing changes..."
-git add -A
+# Use git add with specific patterns to avoid adding node_modules/.cache/
+git add -A ':!node_modules' ':!.git'
 git commit -m "Deploy: $(date '+%Y-%m-%d %H:%M:%S')" >/dev/null 2>&1
 echo "✅ Changes committed"
 echo ""

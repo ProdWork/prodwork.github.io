@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "framer-motion": "^10.16.16",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.303.0",
+    "marked": "^17.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"

@@ -7,6 +7,11 @@ export default defineConfig({
   publicDir: 'public',
   server: {
     port: 3000,
+    // Enable watching of markdown files in public/blogs
+    watch: {
+      includes: ['src/**', 'public/**/*.md'],
+      ignored: ['**/node_modules/**'],
+    },
   },
   build: {
     outDir: 'dist',

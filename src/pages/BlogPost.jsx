@@ -215,55 +215,10 @@ export default function BlogPost() {
 
             {/* Content */}
             <FadeIn delay={0.7}>
-              <div className="prose prose-lg dark:prose-invert max-w-none mb-12">
-                {blog.content.split('\n\n').map((paragraph, index) => {
-                  if (paragraph.startsWith('## ')) {
-                    return (
-                      <h2 key={index} className="font-display text-2xl font-semibold text-dark-900 dark:text-white mt-8 mb-4">
-                        {paragraph.replace('## ', '')}
-                      </h2>
-                    );
-                  }
-                  if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
-                    return (
-                      <h3 key={index} className="font-display text-xl font-semibold text-dark-900 dark:text-white mt-6 mb-3">
-                        {paragraph.replace(/\*\*/g, '')}
-                      </h3>
-                    );
-                  }
-                  if (paragraph.startsWith('- [ ]') || paragraph.startsWith('- [x]')) {
-                    const items = paragraph.split('\n');
-                    return (
-                      <ul key={index} className="space-y-2 my-4">
-                        {items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-2 text-dark-600 dark:text-dark-300">
-                            <span className="w-5 h-5 rounded border border-dark-300 dark:border-dark-600 flex-shrink-0 mt-0.5" />
-                            {item.replace(/- \[[ x]\] /, '')}
-                          </li>
-                        ))}
-                      </ul>
-                    );
-                  }
-                  if (paragraph.startsWith('- ')) {
-                    const items = paragraph.split('\n');
-                    return (
-                      <ul key={index} className="space-y-2 my-4">
-                        {items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-2 text-dark-600 dark:text-dark-300">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0 mt-2" />
-                            {item.replace('- ', '')}
-                          </li>
-                        ))}
-                      </ul>
-                    );
-                  }
-                  return (
-                    <p key={index} className="text-dark-600 dark:text-dark-300 leading-relaxed mb-4">
-                      {paragraph}
-                    </p>
-                  );
-                })}
-              </div>
+              <div 
+                className="prose prose-lg dark:prose-invert max-w-none mb-12 prose-p:text-dark-600 dark:prose-p:text-dark-300 prose-p:leading-relaxed prose-headings:text-dark-900 dark:prose-headings:text-white prose-headings:font-display prose-headings:font-semibold prose-a:text-primary-600 dark:prose-a:text-primary-400 hover:prose-a:underline prose-strong:text-dark-900 dark:prose-strong:text-white prose-em:text-dark-700 dark:prose-em:text-dark-200"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
             </FadeIn>
 
             {/* Author card */}

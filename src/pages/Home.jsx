@@ -80,7 +80,7 @@ export default function Home() {
                     <img
                       src="/data/puneet-nb.jpg"
                       alt={profile.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain object-center bg-white dark:bg-dark-800"
                     />
                   </motion.div>
 

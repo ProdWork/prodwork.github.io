@@ -8,7 +8,6 @@ readTime: "5 min read"
 category: "Product Delivery"
 tags: ["0-to-1", "Delivery", "Leadership", "CPO", "Execution"]
 featured: true
-heroImage: "/data/blog-images/zero-to-pilot-eight-months.jpg"
 ---
 
 

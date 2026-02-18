@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Platform UX"
 tags: ["Onboarding", "Lifecycle", "Leadership", "CPO", "Retention"]
 featured: false
-heroImage: "/data/blog-images/day0-day1-day2-experiences.jpg"
 ---
 
 

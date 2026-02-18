@@ -8,7 +8,6 @@ readTime: "5 min read"
 category: "B2B SaaS"
 tags: ["Onboarding", "Suppliers", "Leadership", "CPO", "Scale"]
 featured: false
-heroImage: "/data/blog-images/supplier-onboarding-product-problem.jpg"
 ---
 
 

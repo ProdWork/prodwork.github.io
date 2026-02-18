@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Security"
 tags: ["IAM", "Security", "Leadership", "CIO", "Platform"]
 featured: true
-heroImage: "/data/blog-images/iam-hidden-complexity.jpg"
 ---
 
 

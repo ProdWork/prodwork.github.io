@@ -7,7 +7,7 @@ readTime: "5 min read"
 category: "FinTech"
 tags: ["Banking", "Trust", "Resilience", "Leadership", "CPO", "CIO"]
 featured: true
-heroImage: "/data/blog-images/building-platforms-banks-trust.jpg"
+heroImage: "/data/blog-images/building-platforms-banks-trust.png"
 ---
 
 

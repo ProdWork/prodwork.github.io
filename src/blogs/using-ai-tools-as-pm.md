@@ -8,7 +8,6 @@ readTime: "5 min read"
 category: "AI in Product"
 tags: ["AI", "Product", "Leadership", "CPO", "Tools"]
 featured: true
-heroImage: "/data/blog-images/using-ai-tools-as-pm.jpg"
 ---
 
 

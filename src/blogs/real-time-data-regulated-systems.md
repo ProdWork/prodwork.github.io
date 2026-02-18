@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Architecture"
 tags: ["Real-time", "Compliance", "Leadership", "CIO", "Risk"]
 featured: false
-heroImage: "/data/blog-images/real-time-data-regulated-systems.jpg"
 ---
 
 

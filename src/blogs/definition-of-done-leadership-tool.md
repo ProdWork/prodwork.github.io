@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Agile"
 tags: ["Agile", "Alignment", "Leadership", "CPO", "Delivery"]
 featured: false
-heroImage: "/data/blog-images/definition-of-done-leadership-tool.jpg"
 ---
 
 

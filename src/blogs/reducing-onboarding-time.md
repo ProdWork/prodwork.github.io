@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Product Delivery"
 tags: ["Onboarding", "Automation", "Leadership", "CPO", "Trust"]
 featured: false
-heroImage: "/data/blog-images/reducing-onboarding-time.jpg"
 ---
 
 

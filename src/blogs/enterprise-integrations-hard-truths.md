@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Integration"
 tags: ["Integration", "Risk", "Leadership", "CIO", "Delivery"]
 featured: false
-heroImage: "/data/blog-images/enterprise-integrations-hard-truths.jpg"
 ---
 
 

@@ -5,11 +5,27 @@ const API_BASE = '/data';
 
 // Parse YAML frontmatter from markdown
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-  if (!match) return { metadata: {}, content: '' };
+  // Support two common frontmatter styles:
+  // 1) Standard YAML delimited with leading and trailing '---' at the top of the file
+  // 2) Files where frontmatter is present but missing the opening '---' and only have a trailing '---' line
+  let frontmatterStr = null;
+  let markdown = null;
 
-  const frontmatterStr = match[1];
-  const markdown = match[2];
+  const fullMatch = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (fullMatch) {
+    frontmatterStr = fullMatch[1];
+    markdown = fullMatch[2];
+  } else {
+    // Look for a trailing '---' separator and treat everything before it as frontmatter
+    const sep = '\n---\n';
+    const idx = content.indexOf(sep);
+    if (idx !== -1) {
+      frontmatterStr = content.slice(0, idx).trim();
+      markdown = content.slice(idx + sep.length);
+    }
+  }
+
+  if (!frontmatterStr) return { metadata: {}, content: '' };
 
   // Simple YAML parser for our frontmatter
   const metadata = {};

@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Healthcare"
 tags: ["Healthcare", "Alignment", "Leadership", "CPO", "Incentives"]
 featured: false
-heroImage: "/data/blog-images/health-insurance-product-lessons.jpg"
 ---
 
 

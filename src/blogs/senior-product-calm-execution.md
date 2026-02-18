@@ -8,7 +8,6 @@ readTime: "5 min read"
 category: "Leadership"
 tags: ["Leadership", "Execution", "CPO", "Judgment", "Alignment"]
 featured: false
-heroImage: "/data/blog-images/senior-product-calm-execution.jpg"
 ---
 
 

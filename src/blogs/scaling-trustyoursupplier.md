@@ -8,7 +8,6 @@ readTime: "5 min read"
 category: "SaaS"
 tags: ["SaaS", "Scaling", "Leadership", "CPO", "Enterprise"]
 featured: true
-heroImage: "/data/blog-images/scaling-trustyoursupplier.jpg"
 ---
 
 

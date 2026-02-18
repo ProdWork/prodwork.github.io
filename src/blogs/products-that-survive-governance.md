@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Enterprise Product"
 tags: ["Governance", "Compliance", "Leadership", "CPO", "Scale"]
 featured: false
-heroImage: "/data/blog-images/products-that-survive-governance.jpg"
 ---
 
 

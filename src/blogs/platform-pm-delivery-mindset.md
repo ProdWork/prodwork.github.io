@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Product Leadership"
 tags: ["Platforms", "Delivery", "Leadership", "CPO", "Execution"]
 featured: false
-heroImage: "/data/blog-images/platform-pm-delivery-mindset.jpg"
 ---
 
 

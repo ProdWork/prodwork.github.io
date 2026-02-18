@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "GovTech"
 tags: ["Government", "Trust", "Leadership", "CIO", "Delivery"]
 featured: false
-heroImage: "/data/blog-images/launching-government-platform.jpg"
 ---
 
 

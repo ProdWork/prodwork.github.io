@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Career"
 tags: ["Consulting", "Product", "Leadership", "CPO", "CXO"]
 featured: false
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
 ---
 
 

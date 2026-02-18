@@ -7,7 +7,6 @@ readTime: "5 min read"
 category: "Product Strategy"
 tags: ["Roadmaps", "Dependencies", "Leadership", "CPO", "Execution"]
 featured: false
-heroImage: "/data/blog-images/roadmaps-and-dependencies.jpg"
 ---
 
 

@@ -1,20 +1,19 @@
----
 id: 9
 slug: supplier-onboarding-product-problem
 title: "Supplier Onboarding Is a Product Problem, Not an Operations Problem"
 date: 2021-08-06
-excerpt: "Why onboarding must be designed as a scalable product capability."
-readTime: "8 min read"
-category: "B2B SaaS"
 tags: ["Onboarding", "Suppliers", "Platforms"]
+excerpt: "Executive insights: onboarding as a strategic product lever."
+readTime: "5 min read"
+category: "B2B SaaS"
+tags: ["Onboarding", "Suppliers", "Leadership", "CPO", "Scale"]
 featured: false
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
+heroImage: "/data/blog-images/supplier-onboarding-product-problem.jpg"
 ---
 
-Supplier onboarding is often treated as an operational afterthought. In reality, it is one of the most critical product experiences.
 
-Manual onboarding does not scale, introduces risk, and creates frustration on both sides. Treating onboarding as a product capability—complete with workflows, validation, and feedback loops—dramatically improves adoption.
+When a supplier onboarding task force was formed to address mounting delays, the real issue quickly surfaced: onboarding is a product problem, not just an operational one. For Chief Product Officers and scale leaders, the lesson is clear—manual processes don’t scale, and every friction point compounds risk.
 
-In platforms dealing with thousands of suppliers, small improvements compound quickly.
+Treating onboarding as a strategic product capability—with robust workflows, validation, and feedback loops—dramatically improves adoption and reduces support load. In platforms with thousands of suppliers, even small improvements have outsized impact.
 
-Good onboarding design reduces support load and accelerates value realization.
+As your supplier ecosystem grows, will your onboarding process accelerate value—or quietly become your next bottleneck?

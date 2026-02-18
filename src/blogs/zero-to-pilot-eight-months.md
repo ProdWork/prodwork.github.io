@@ -1,20 +1,19 @@
----
 id: 7
 slug: zero-to-pilot-eight-months
 title: "From Zero to Pilot: What It Takes to Launch a Platform in 8 Months"
 date: 2021-01-17
-excerpt: "A realistic breakdown of sequencing, scope control, and delivery risk."
-readTime: "10 min read"
-category: "Product Delivery"
 tags: ["0-to-1", "Delivery", "Platforms"]
+excerpt: "Executive insights: sequencing and scope control for rapid platform launches."
+readTime: "5 min read"
+category: "Product Delivery"
+tags: ["0-to-1", "Delivery", "Leadership", "CPO", "Execution"]
 featured: true
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
+heroImage: "/data/blog-images/zero-to-pilot-eight-months.jpg"
 ---
 
-Launching an enterprise platform in under a year is less about speed and more about sequencing. In one such initiative, we deliberately avoided building a broad feature set and instead focused on a narrow, credible pilot.
 
-The key was identifying what absolutely needed to exist for a real customer to use the platform end-to-end. Everything else was deferred. This meant saying no repeatedly, even to reasonable requests.
+During a high-stakes executive review, the question was posed: how do you launch a credible platform in just eight months? For Chief Product Officers and delivery leaders, the answer is sequencing and ruthless scope control.
 
-We spent disproportionate time on integration readiness, access control, and operational workflows. These were not glamorous, but without them, the pilot would have failed.
+Launching at speed isn’t about building more, but about building what matters most. The key is identifying the minimum set of features for a real customer to use the platform end-to-end—everything else is deferred. This requires saying no, even to reasonable requests, and focusing on integration readiness, access control, and operational workflows.
 
-The result was a production-grade pilot that built confidence with stakeholders and created a strong foundation for scale.
+The result? A production-grade pilot that builds stakeholder confidence and lays the foundation for scale. As timelines compress, will your team master the art of sequencing—or will ambition outpace delivery?

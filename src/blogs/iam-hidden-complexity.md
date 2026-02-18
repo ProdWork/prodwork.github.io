@@ -1,20 +1,18 @@
----
 id: 15
 slug: iam-hidden-complexity
 title: "The Hidden Complexity of IAM in Enterprise Platforms"
 date: 2023-05-12
-excerpt: "Why identity and access should be first-class platform capabilities."
-readTime: "9 min read"
+excerpt: "Executive insights: IAM as a strategic platform investment."
+readTime: "5 min read"
 category: "Security"
-tags: ["IAM", "Security", "Platforms"]
+tags: ["IAM", "Security", "Leadership", "CIO", "Platform"]
 featured: true
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
+heroImage: "/data/blog-images/iam-hidden-complexity.jpg"
 ---
 
-Identity and Access Management is often underestimated until it breaks.
 
-IAM touches every workflow—onboarding, daily use, audits, and offboarding.
+After a recent security audit exposed gaps in access controls, the true complexity of Identity and Access Management (IAM) became impossible to ignore. For CIOs and platform leaders, IAM is not just a technical requirement—it’s a strategic investment that underpins every workflow.
 
-Designing IAM as a core platform service rather than a bolt-on reduces risk and improves user experience.
+IAM touches onboarding, daily operations, audits, and offboarding. When designed as a core platform service, it reduces risk and elevates user experience. Treating IAM as a bolt-on is a recipe for hidden vulnerabilities and operational headaches.
 
-It is one of the highest-leverage investments a platform team can make.
+As digital ecosystems expand, the question for executives is: will your IAM strategy scale with your ambitions, or will unseen complexity become your next audit finding?

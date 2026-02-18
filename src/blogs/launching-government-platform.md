@@ -1,20 +1,18 @@
----
 id: 13
 slug: launching-government-platform
 title: "What I Learned from Launching a Government Platform"
 date: 2022-10-08
-excerpt: "Delivering regulated platforms where adoption is mandatory but trust is not."
-readTime: "8 min read"
+excerpt: "Executive reflections: trust and clarity in public sector platforms."
+readTime: "5 min read"
 category: "GovTech"
-tags: ["Government", "Platforms", "Delivery"]
+tags: ["Government", "Trust", "Leadership", "CIO", "Delivery"]
 featured: false
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
+heroImage: "/data/blog-images/launching-government-platform.jpg"
 ---
 
-Government platforms operate under unique constraints—policy, public scrutiny, and long-term accountability.
 
-Even when adoption is mandated, trust must be earned.
+At a recent public sector launch event, the unique constraints of government platforms were on full display—policy, scrutiny, and long-term accountability. For CIOs and public sector leaders, the lesson was clear: even when adoption is mandatory, trust must be earned.
 
-Clear communication, predictable behavior, and transparent rules were more important than feature richness.
+Clear communication, predictable behavior, and transparent rules matter more than feature richness. Stability and clarity are the foundation for public trust and successful adoption.
 
-The experience reinforced the importance of stability and clarity in public-sector platforms.
+As digital government accelerates, will your platform inspire confidence—or will hidden complexity undermine your mandate?

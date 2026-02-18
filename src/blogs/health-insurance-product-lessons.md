@@ -1,20 +1,18 @@
----
 id: 5
 slug: health-insurance-product-lessons
 title: "Product Lessons from the US Health Insurance Ecosystem"
 date: 2020-06-03
-excerpt: "What building across payers, PBMs, and providers taught me about alignment at scale."
-readTime: "9 min read"
+excerpt: "Executive takeaways: alignment and incentives in health insurance."
+readTime: "5 min read"
 category: "Healthcare"
-tags: ["Healthcare", "Platforms", "Product"]
+tags: ["Healthcare", "Alignment", "Leadership", "CPO", "Incentives"]
 featured: false
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
+heroImage: "/data/blog-images/health-insurance-product-lessons.jpg"
 ---
 
-The US health insurance ecosystem is a masterclass in misaligned incentives.
 
-Building products across payers, PBMs, and providers revealed how fragmentation shapes behavior. Each participant optimizes locally, often at the expense of system-wide efficiency.
+At a recent payer-provider alignment workshop, the complexity of the US health insurance ecosystem was on full display. For Chief Product Officers and healthcare leaders, the lesson was clear: misaligned incentives drive fragmentation and inefficiency at every level.
 
-Product success in this environment depends on understanding incentives deeply. Features that appear logical can fail if they disrupt established workflows.
+Building products across payers, PBMs, and providers means navigating a landscape where each participant optimizes for their own outcomes—often at the expense of the system as a whole. Success depends on understanding these incentives deeply and designing features that fit established workflows, not disrupt them.
 
-The lesson was clear: effective healthcare products adapt to the ecosystem rather than attempting to overhaul it overnight.
+The most effective healthcare products adapt to the ecosystem’s realities, building alignment incrementally rather than attempting wholesale change. As regulatory and market pressures mount, will your product strategy bridge the gaps—or reinforce them?

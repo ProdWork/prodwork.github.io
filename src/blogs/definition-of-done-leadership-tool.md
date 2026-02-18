@@ -1,20 +1,18 @@
----
 id: 8
 slug: definition-of-done-leadership-tool
 title: "Why Definition of Done Is a Leadership Tool"
 date: 2021-04-11
-excerpt: "How clear acceptance criteria reduce friction and delivery risk."
-readTime: "6 min read"
+excerpt: "Executive perspective: definition of done as a lever for alignment."
+readTime: "5 min read"
 category: "Agile"
-tags: ["Agile", "Delivery", "Leadership"]
+tags: ["Agile", "Alignment", "Leadership", "CPO", "Delivery"]
 featured: false
-heroImage: "/data/blog-images/consulting-to-product-transition.jpg"
+heroImage: "/data/blog-images/definition-of-done-leadership-tool.jpg"
 ---
 
-Teams rarely disagree on goals; they disagree on what ‘done’ means.
 
-I have seen delivery slow down not because of lack of effort, but because expectations were implicit. Different stakeholders assumed different outcomes.
+In a recent cross-functional delivery review, it became clear that teams rarely disagree on goals—they disagree on what “done” means. For Chief Product Officers and delivery leaders, this is more than semantics; it’s a lever for alignment and risk reduction.
 
-Treating Definition of Done as a leadership responsibility—not a team artifact—changed this dynamic. Clear acceptance criteria aligned engineering, product, and operations.
+Delivery often slows not for lack of effort, but because expectations are implicit. When “done” is treated as a leadership responsibility, not just a team artifact, it aligns engineering, product, and operations. Clear acceptance criteria—covering stability, documentation, and readiness—make delivery predictable and build trust across the organization.
 
-When ‘done’ includes stability, documentation, and readiness, delivery becomes predictable and trust improves.
+As delivery complexity grows, will your teams align on outcomes, or will ambiguity quietly undermine your execution?

@@ -44,9 +44,11 @@ export default function Home() {
                     Read my blogs
                   </Link>
                   <a 
-                    href="/data/Puneet.pdf" 
+                    href="https://docs.google.com/document/d/1uR69dmVA092MNkQsba57gOe8pRFzn2RVWojRtKDzxoY/export?format=pdf" 
                     download="Puneet_Singh_Resume.pdf"
                     className="btn-secondary"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <FileText size={18} />
                     Download Resume

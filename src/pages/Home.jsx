@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Rocket, FileText } from 'lucide-react';
+import { ArrowRight, Rocket } from 'lucide-react';
 import { motion } from 'framer-motion';
 import PageTransition, { FadeIn } from '../components/PageTransition';
 import { useProfile } from '../hooks/useProfile';
@@ -43,16 +43,6 @@ export default function Home() {
                   <Link to="/blog" className="btn-secondary">
                     Read my blogs
                   </Link>
-                  <a 
-                    href="https://docs.google.com/document/d/1uR69dmVA092MNkQsba57gOe8pRFzn2RVWojRtKDzxoY/export?format=pdf" 
-                    download="Puneet_Singh_Resume.pdf"
-                    className="btn-secondary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FileText size={18} />
-                    Download Resume
-                  </a>
                   <Link to="/about" className="btn-ghost">
                     Learn About Me
                     <ArrowRight size={18} />

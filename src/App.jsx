@@ -9,6 +9,7 @@ import ProjectDetail from './pages/ProjectDetail';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Admin from './pages/Admin';
+import Resume from './pages/Resume';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function AnimatedRoutes() {
           <Route path="projects/:id" element={<ProjectDetail />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:slug" element={<BlogPost />} />
+          <Route path="resume" element={<Resume />} />
           <Route path="admin" element={<Admin />} />
         </Route>
       </Routes>

@@ -6,8 +6,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
 import Admin from './pages/Admin';
 import Resume from './pages/Resume';
 

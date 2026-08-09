@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
   User, 
   Briefcase, 
-  BookOpen, 
   Save, 
   RefreshCw, 
   Check, 
@@ -25,7 +24,6 @@ const ADMIN_PASSWORD = 'puneet123';
 const tabs = [
   { id: 'profile', label: 'Profile', icon: User },
   { id: 'projects', label: 'Projects', icon: Briefcase },
-  { id: 'blogs', label: 'Blogs', icon: BookOpen },
 ];
 
 export default function Admin() {
@@ -38,12 +36,10 @@ export default function Admin() {
   const [data, setData] = useState({
     profile: null,
     projects: null,
-    blogs: null,
   });
   const [editedData, setEditedData] = useState({
     profile: '',
     projects: '',
-    blogs: '',
   });
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -76,18 +72,16 @@ export default function Admin() {
   const fetchAllData = async () => {
     setLoading(true);
     try {
-      const [profile, projects, blogs] = await Promise.all([
+      const [profile, projects] = await Promise.all([
         fetch(`${API_BASE}/profile`).then(r => r.json()),
         fetch(`${API_BASE}/projects`).then(r => r.json()),
-        fetch(`${API_BASE}/blogs`).then(r => r.json()),
       ]);
       
-      const newData = { profile, projects, blogs };
+      const newData = { profile, projects };
       setData(newData);
       setEditedData({
         profile: JSON.stringify(profile, null, 2),
         projects: JSON.stringify(projects, null, 2),
-        blogs: JSON.stringify(blogs, null, 2),
       });
     } catch (error) {
       setStatus({ type: 'error', message: 'Failed to load data' });
@@ -177,7 +171,7 @@ export default function Admin() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Enter password"
-                    className="w-full px-4 py-3 pr-12 rounded-xl border border-dark-200 dark:border-dark-600 bg-dark-50 dark:bg-dark-700 text-dark-900 dark:text-white placeholder-dark-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 pr-12 rounded-xl border border-dark-200 dark:border-dark-600 bg-dark-50 dark:bg-dark-700 text-dark-900 dark:text-white placeholder-dark-400 focus:o[...]"
                   />
                   <button
                     type="button"
@@ -201,7 +195,7 @@ export default function Admin() {
 
                 <motion.button
                   type="submit"
-                  className="w-full py-3 rounded-xl bg-gradient-to-r from-primary-600 to-primary-500 text-white font-semibold shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 transition-all"
+                  className="w-full py-3 rounded-xl bg-gradient-to-r from-primary-600 to-primary-500 text-white font-semibold shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-[...]"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -275,7 +269,7 @@ export default function Admin() {
                   </motion.button>
                   <motion.button
                     onClick={handleReset}
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-dark-100 dark:bg-dark-700 text-dark-600 dark:text-dark-300 hover:bg-dark-200 dark:hover:bg-dark-600 transition-colors"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-dark-100 dark:bg-dark-700 text-dark-600 dark:text-dark-300 hover:bg-dark-200 dark:hover:bg-d[...]"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >
@@ -345,7 +339,6 @@ export default function Admin() {
                 <li>• Make sure your JSON is valid before saving. Use the "Format JSON" button to auto-format.</li>
                 <li>• Changes are saved directly to the server. Refresh the main site to see updates.</li>
                 <li>• For images, use URLs from image hosting services or place files in the public folder.</li>
-                <li>• Each blog post needs a unique "slug" for its URL (e.g., "my-first-post").</li>
                 <li>• Each project needs a unique "id" (e.g., "project-1", "my-awesome-app").</li>
               </ul>
             </div>

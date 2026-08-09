@@ -40,9 +40,6 @@ export default function Home() {
                     <Rocket size={18} />
                     View My Work
                   </Link>
-                  <Link to="/blog" className="btn-secondary">
-                    Read my blogs
-                  </Link>
                   <Link to="/about" className="btn-ghost">
                     Learn About Me
                     <ArrowRight size={18} />

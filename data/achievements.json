@@ -1,0 +1,43 @@
+[
+  {
+    "id": "patents",
+    "title": "3× Patents Holder",
+    "description": "Granted patents in distributed systems, blockchain identity verification, and predictive analytics algorithms",
+    "icon": "lightbulb",
+    "category": "Innovation",
+    "color": "#6366F1",
+    "details": [
+      "Distributed consensus mechanism for enterprise blockchain",
+      "Privacy-preserving identity verification system",
+      "Predictive user behavior modeling framework"
+    ]
+  },
+  {
+    "id": "speaker",
+    "title": "Conference Speaker",
+    "description": "Regular speaker at leading technology and product conferences worldwide",
+    "icon": "microphone",
+    "category": "Thought Leadership",
+    "color": "#EC4899",
+    "details": [
+      "FICO Arch. Summit, San Diego 2025",
+      "Linux Foundation Workshop 2022",
+      "Blockchain Technology Conf. 2018",
+      "Unicom: Blockchain in SCM 2018"
+    ]
+  },
+  {
+    "id": "launches",
+    "title": "Enterprise Product Launches",
+    "description": "Successfully led multiple enterprise-scale product launches serving millions of users",
+    "icon": "rocket",
+    "category": "Execution",
+    "color": "#10B981",
+    "details": [
+      "Led 5 major product launches",
+      "Combined user base of 10M+",
+      "Generated $50M+ ARR",
+      "Led 50+ member teams"  
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "social": [
+    {
+      "name": "LinkedIn",
+      "icon": "Linkedin",
+      "url": "https://linkedin.com/in/puneet-iiml"
+    },
+    {
+      "name": "Email",
+      "icon": "Mail",
+      "url": "mailto:puneet.singh@iiml.org"
+    }
+  ]
+}
